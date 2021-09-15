@@ -1,3 +1,21 @@
+# 鲁虺pdf资源网
+
+http://pdf.luhui.net
+
+
+部署状态徽章
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ac4822e0-e03d-416f-bbda-5e4f3e9556b4/deploy-status)](https://app.netlify.com/sites/pdftranslator/deploys)
+
+netlify演示域名
+http://pdftranslator.netlify.app
+
+
+
+
+
+
+
 # pdfTranslator
 
 ——追求简洁·优雅·美观的解决之道
