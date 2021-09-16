@@ -11,8 +11,10 @@ netlify演示域名
 http://pdftranslator.netlify.app
 
 
+pdfjs这是一个基于 PDFjs 的简单 PDF 查看器
 
-
+调用PDF文件地址
+viewer.html?file=PDF文件.pdf
 
 
 
