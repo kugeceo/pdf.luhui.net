@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>PDF Search Engine</title>
+		<meta name="description" content="PDF search engine allows you to find free PDF books and files and download them to your computer. Search through millions of online pdfs." />
+
+		<meta name="keywords" content="pdf search engine, free pdf books, free pdf textbooks" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+		<link rel="stylesheet" href="static/css/style.css" />
+
+	
+
+		<!--[if lte IE 8]>
+		<script src="static/js/html5.js"></script>
+		<![endif]-->
+
+</head>
+	<body>		
+
+    <div class="container-fluid" id="homepage-bar">
+                
+         
+        <br /><br />
+    </div>
+
+    <div id="homepage-search">
+        <div id='logo'>
+           <span style="color:#97BB3B;font-size:65px;font-weight:bold;">PDF <span style="color:#76A5E6;">SEARCH</span> ENGINE</span>
+        </div>
+<br /><br />
+<script type="text/javascript">
+
+function docfinder(form){
+  var bool = "";
+  var i = typeof(form.elements.algorithm.length) == "number" ? form.elements.algorithm.length : 0;
+  
+  while (i--) {
+    if (form.elements.algorithm[i].checked) {
+      bool = form.elements.algorithm[i].value;
+      break;
+    }
+  }
+  
+  form.elements.q.value = "" + bool + form.elements.qfront.value;
+  form = null;
+}
+</script>
+        <div id="searcharea">
+
+<style type="text/css">
+@import url(static/css/branding.css);
+</style>
+<div class="cse-branding-bottom" style="background-color:#FFFFFF;color:#000000">
+  <div class="cse-branding-form">
+
+       <div class="control-group">
+                    <div class="controls">
+<div class="input-append">
+    <form action="searchresult.html" onSubmit="docfinder(this)" id="cse-search-box">
+      <div>
+        <input type="hidden" name="cx" value="partner-pub-9634067433254658:9653363797" />
+        <input type="hidden" name="cof" value="FORID:10" />
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input name="q" type="hidden" />
+        <input autofocus name="qfront" id="inputField" type="text" value="" size="55" style="width:650px;">
+<button class="btn" type="submit"><img width="16" height="16" class="retina" name="sa" value="Search" src="static/picture/icon_search.png"/></button>
+
+       </div> 
+
+ </div>
+      </div>
+ <div class="cse-branding-logo">
+    <img src="static/picture/poweredby_ffffff.gif" alt="Google" />
+  </div>
+  <div class="cse-branding-text">
+    Custom Search
+  </div>
+</div>
+<br />
+<tr>
+	  <td>
+	   
+	      <input type="radio" name="algorithm" value="filetype:pdf " checked="checked" />
+	      PDF Files (Adobe Acrobat)</td>
+	 
+	</tr>
+    <tr><td>
+      <input type="radio" name="algorithm" value="filetype:chm " />
+    CHM File </td>
+      </tr>
+    <tr><td>
+      <input type="radio" name="algorithm" value="filetype:doc " />
+Word Files (Doc and Docx)
+</td>
+      <td>
+      <input type="radio" name="algorithm" value="filetype:rtf " />
+   RTF Files (Rich Text)</td>
+    </tr>
+	    <tr>
+	      <td>
+	      <input type="radio" name="algorithm" value="filetype:txt " />
+  TXT Files (Plain Text)</td>
+    </tr>
+	</table>
+ </form>
+</div>
+</div>
+    </div>
+    </div>
+    <footer id="homepage-footer">
+
+        <br />
+        <div id="tagline">
+           Search through 9812,727,964 Free PDF Books and Files
+        </div>
+        <div id="submenu" class="footer">
+            <div class="links">
+	<a href="about.html">About</a>
+	<a href="#">Help</a>
+	<a href="mailto:info@mail.luhui.net">Submit PDFs</a>
+	<a href="#">Terms of service</a>
+</div>
+<div class="proudlymadebyus">
+	Proudly made by Web Design luhui.net. Copyright 2004-1-11 . All rights reserved.
+</div>
+<div class="socialallthethings">
+	<a class="facebook" href="http://www.facebook.com/luhuiceo">Facebook</a>
+	<a class="twitter" href="http://www.twitter.com/luhuiceo">Twitter</a>
+</div>
+
+<div style="display:none">
+    <script src="http://s11.cnzz.com/z_stat.php?id=610720&web_id=610720" language="JavaScript"></script>
+</div>
+
+     
+        </div>
+    </footer>
+	
+	</body>
+</html>
