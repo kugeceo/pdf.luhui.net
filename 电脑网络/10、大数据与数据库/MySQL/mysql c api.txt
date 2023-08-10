@@ -1,0 +1,602 @@
+详细的MySQL C API [转]2008-09-13 19:21C API代码是随MySQL分发的，它被包含在mysqlclient库且允许C程序存取一个数据库。 
+在 MySQL源代码分发中的很多客户是用C编写的。如果你正在寻找演示怎样使用C API的例子，看一下这些客户程序。
+
+大多数其他客户 API(除了Java的所有)都使用mysqlclient库与MySQL服务器通信。这意味着，例如，你能利用很多被其他客户程序使用的同一环境变量，因为他们从库中引用。对这些变量的一张表，见12.1 不同的MySQL程序的概述。
+
+客户有一个最大通讯缓冲区大小。初始分配的缓冲区大小(16K字节) 自动地增加到最大尺寸(缺省的最大值是24M)。因为缓冲区大小只是按保证需求而被增加，简单地增加缺省的最大限制并不造成更多被消耗。该尺寸检查主要是一个对错误的查询和通讯包的检查。
+
+通讯缓冲区必须足够大以便一个单独的SQL语句(对客户-服务器传输)和一行返回的数据(对服务器-客户传输)。每个线程的通讯缓冲区被动态扩大到 最大限制来处理任何查询或行。例如，如果你包含大到16M数据的BLOB值，你必须有一个至少16M通讯缓冲区限制(在服务器和客户两端)。客户的缺省最 大值是24M，但是在服务器端的缺省最大值是1M。你可以在服务器启动时通过改变max_allowed_packet参数的值来改变它。见10.2.3 调节服务器参数。
+
+MySQL服务器在每个查询后缩小每个通讯缓冲区到net_buffer_length个字节。对客户，与一个连接相关的缓冲区的大小没被减少，直到连接被关闭，在此时客户内存被回收。
+
+如果你用线程的编程，你应该用--with-thread-safe-client编译MySQL C API，这将使C API线程对每个连接更安全。你可以让2个线程共享相同的连接，只要如果你做下列事情：
+
+两个线程不能同时在同一个连接上发送查询到MySQL。特别是你必须保证在一个mysql_query()和mysql_store_result()之间没有其他线程正在使用同一个连接。 
+许多线程能存取用mysql_store_result()检索出来的不同结果集合。 
+如果你使用mysql_use_result，你必须保证没有其他线程在同一个连接上正在询问任何东西，直到结果集合被关闭。 
+20.2 C API数据类型
+MYSQL 
+这个结构表示对一个数据库连接的句柄，它被用于几乎所有的MySQL函数。 
+MYSQL_RES 
+这个结构代表返回行的一个查询的(SELECT, SHOW, DESCRIBE, EXPLAIN)的结果。从查询返回的信息在本章下文称为结果集合。 
+MYSQL_ROW 
+这是一个行数据的类型安全(type-safe)的表示。当前它实现为一个计数字节的字符串数组。（如果字段值可能包含二进制数据，你不能将这些视为空终止串，因为这样的值可以在内部包含空字节) 行通过调用mysql_fetch_row()获得。 
+MYSQL_FIELD 
+这个结构包含字段信息，例如字段名、类型和大小。其成员在下面更详细地描述。你可以通过重复调用mysql_fetch_field()对每一列获得MYSQL_FIELD结构。字段值不是这个结构的部分；他们被包含在一个MYSQL_ROW结构中。 
+MYSQL_FIELD_OFFSET 
+这是一个相对一个MySQL字段表的偏移量的类型安全的表示。（由mysql_field_seek()使用。) 偏移量是在一行以内的字段编号，从0开始。 
+my_ulonglong 
+该类型用于行编号和mysql_affected_rows()、mysql_num_rows()和mysql_insert_id()。这种类型提供 0到1.84e19的一个范围。在一些系统上，试图打印类型my_ulonglong的值将不工作。为了打印出这样的值，将它变换到unsigned long并且使用一个%lu打印格式。例如：
+printf (Number of rows: %lu\n", (unsigned long) mysql_num_rows(result));
+
+MYSQL_FIELD结构包含列在下面的成员：
+
+char * name 
+字段名，是一个空结尾的字符串。 
+char * table 
+包含该字段的表的名字，如果它不是可计算的字段。对可计算的字段，table值是一个空字符串。 
+char * def 
+这字段的缺省值，是一个空结尾的字符串。只要你使用，只有你使用mysql_list_fields()才可设置它。 
+enum enum_field_types type 
+字段类型。type值可以是下列之一：类型值 类型含义 
+FIELD_TYPE_TINY TINYINT字段 
+FIELD_TYPE_SHORT SMALLINT字段 
+FIELD_TYPE_LONG INTEGER字段 
+FIELD_TYPE_INT24 MEDIUMINT字段 
+FIELD_TYPE_LONGLONG BIGINT字段 
+FIELD_TYPE_DECIMAL DECIMAL或NUMERIC字段 
+FIELD_TYPE_FLOAT FLOAT字段 
+FIELD_TYPE_DOUBLE DOUBLE或REAL字段 
+FIELD_TYPE_TIMESTAMP TIMESTAMP字段 
+FIELD_TYPE_DATE DATE字段 
+FIELD_TYPE_TIME TIME字段 
+FIELD_TYPE_DATETIME DATETIME字段 
+FIELD_TYPE_YEAR YEAR字段 
+FIELD_TYPE_STRING 字符串(CHAR或VARCHAR)字段 
+FIELD_TYPE_BLOB BLOB或TEXT字段(使用max_length决定最大长度） 
+FIELD_TYPE_SET SET字段 
+FIELD_TYPE_ENUM ENUM字段 
+FIELD_TYPE_NULL NULL- 类型字段 
+FIELD_TYPE_CHAR 不推荐；使用FIELD_TYPE_TINY代替
+
+你可以使用IS_NUM()宏来测试字段是否有一种数字类型。将type值传给IS_NUM()并且如果字段是数字的，它将计算为TRUE：
+
+if (IS_NUM(field->type))
+   printf("Field is numeric\n");
+
+unsigned int length 
+字段宽度，在表定义中指定。 
+unsigned int max_length 
+对结果集合的字段的最大宽度(对实际在结果集合中的行的最长字段值的长度)。如果你使用mysql_store_result()或mysql_list_fields()，这包含字段最大长度。如果你使用mysql_use_result()，这个变量的值是零。 
+unsigned int flags 
+字段的不同位标志。flags值可以是零个或多个下列位设置：标志值 标志含义 
+NOT_NULL_FLAG 字段不能是NULL 
+PRI_KEY_FLAG 字段是一个主键的一部分 
+UNIQUE_KEY_FLAG 字段是一个唯一键的一部分 
+MULTIPLE_KEY_FLAG 字段是一个非唯一键的一部分。 
+UNSIGNED_FLAG 字段有UNSIGNED属性 
+ZEROFILL_FLAG 字段有ZEROFILL属性 
+BINARY_FLAG 字段有BINARY属性 
+AUTO_INCREMENT_FLAG 字段有AUTO_INCREMENT属性 
+ENUM_FLAG 字段是一个ENUM（不推荐） 
+BLOB_FLAG 字段是一个BLOB或TEXT（不推荐） 
+TIMESTAMP_FLAG 字段是一个TIMESTAMP（不推荐）
+
+BLOB_FLAG、ENUM_FLAG和TIMESTAMP_FLAG标志的使用是不推荐的，因为他们指出字段的类型而非它的类型属性。对 FIELD_TYPE_BLOB、FIELD_TYPE_ENUM或FIELD_TYPE_TIMESTAMP，最好是测试 field->type。下面例子演示了一个典型的flags值用法：
+
+if (field->flags & NOT_NULL_FLAG)
+   printf("Field can't be null\n");
+
+你可以使用下列方便的宏决来确定flags值的布尔状态：
+
+IS_NOT_NULL(flags) 真，如果该字段被定义为NOT NULL 
+IS_PRI_KEY(flags) 真，如果该字段是一个主键 
+IS_BLOB(flags) 真，如果该字段是一个BLOB或TEXT（不推荐；相反测试field->type）
+
+unsigned int decimals 
+对数字字段的小数位数。 
+20.3 C API函数概述
+在 C API 中可用的函数列在下面，并且在下一节更详细地描述。见20.4 C API函数描述。
+
+mysql_affected_rows() 返回被最新的UPDATE, DELETE或INSERT查询影响的行数。 
+mysql_close() 关闭一个服务器连接。 
+mysql_connect() 连接一个MySQL服务器。该函数不推荐；使用mysql_real_connect()代替。 
+mysql_change_user() 改变在一个打开的连接上的用户和数据库。 
+mysql_create_db() 创建一个数据库。该函数不推荐；而使用SQL命令CREATE DATABASE。 
+mysql_data_seek() 在一个查询结果集合中搜寻一任意行。 
+mysql_debug() 用给定字符串做一个DBUG_PUSH。 
+mysql_drop_db() 抛弃一个数据库。该函数不推荐；而使用SQL命令DROP DATABASE。 
+mysql_dump_debug_info() 让服务器将调试信息写入日志文件。 
+mysql_eof() 确定是否已经读到一个结果集合的最后一行。这功能被反对; mysql_errno()或mysql_error()可以相反被使用。 
+mysql_errno() 返回最近被调用的MySQL函数的出错编号。 
+mysql_error() 返回最近被调用的MySQL函数的出错消息。 
+mysql_escape_string() 用在SQL语句中的字符串的转义特殊字符。 
+mysql_fetch_field() 返回下一个表字段的类型。 
+mysql_fetch_field_direct () 返回一个表字段的类型，给出一个字段编号。 
+mysql_fetch_fields() 返回一个所有字段结构的数组。 
+mysql_fetch_lengths() 返回当前行中所有列的长度。 
+mysql_fetch_row() 从结果集合中取得下一行。 
+mysql_field_seek() 把列光标放在一个指定的列上。 
+mysql_field_count() 返回最近查询的结果列的数量。 
+mysql_field_tell() 返回用于最后一个mysql_fetch_field()的字段光标的位置。 
+mysql_free_result() 释放一个结果集合使用的内存。 
+mysql_get_client_info() 返回客户版本信息。 
+mysql_get_host_info() 返回一个描述连接的字符串。 
+mysql_get_proto_info() 返回连接使用的协议版本。 
+mysql_get_server_info() 返回服务器版本号。 
+mysql_info() 返回关于最近执行得查询的信息。 
+mysql_init() 获得或初始化一个MYSQL结构。 
+mysql_insert_id() 返回有前一个查询为一个AUTO_INCREMENT列生成的ID。 
+mysql_kill() 杀死一个给定的线程。 
+mysql_list_dbs() 返回匹配一个简单的正则表达式的数据库名。 
+mysql_list_fields() 返回匹配一个简单的正则表达式的列名。 
+mysql_list_processes() 返回当前服务器线程的一张表。 
+mysql_list_tables() 返回匹配一个简单的正则表达式的表名。 
+mysql_num_fields() 返回一个结果集合重的列的数量。 
+mysql_num_rows() 返回一个结果集合中的行的数量。 
+mysql_options() 设置对mysql_connect()的连接选项。 
+mysql_ping() 检查对服务器的连接是否正在工作，必要时重新连接。 
+mysql_query() 执行指定为一个空结尾的字符串的SQL查询。 
+mysql_real_connect() 连接一个MySQL服务器。 
+mysql_real_query() 执行指定为带计数的字符串的SQL查询。 
+mysql_reload() 告诉服务器重装授权表。 
+mysql_row_seek() 搜索在结果集合中的行，使用从mysql_row_tell()返回的值。 
+mysql_row_tell() 返回行光标位置。 
+mysql_select_db() 连接一个数据库。 
+mysql_shutdown() 关掉数据库服务器。 
+mysql_stat() 返回作为字符串的服务器状态。 
+mysql_store_result() 检索一个完整的结果集合给客户。 
+mysql_thread_id() 返回当前线程的ID。 
+mysql_use_result() 初始化一个一行一行地结果集合的检索。  
+
+为了连接服务器，调用mysql_init()以初始化一个连接处理器，然后用该处理器调用mysql_real_connect()(还有其他信息例如主机名、用户名和口令)。当你用该连接完成工作后，调用mysql_close()终止它。
+
+当一个连接活跃时，客户可以用mysql_query()或mysql_real_query()将SQL查询发送到服务器。两者的差别是 mysql_query()期望查询作为一个空结尾的字符串来指定而mysql_real_query()期望一个计数的字符串。如果字符串包含二进制数 据(它可以包括空字节)，你必须使用mysql_real_query()。
+
+对与每个非--SELECT查询(例如，INSERT、UPDATE、DELETE等)，你可以调用mysql_affected_rows()知道有多少行受到影响(改变)。
+
+对于SELECT查询，你作为一个结果集合来检索选择的行。（注意一些语句是类SELECT的，他们返回行。这些包括SHOW、DESCRIBE和EXPLAIN。他们应该象SELECT语句相同的方式来对待。）
+
+对客户，有两种方法处理结果集合。一种方法是通过调用mysql_store_result()立刻检索全部结果。该函数从服务器获得查询返回的所 有行，并将他们存储在客户端。第二种方法是对客户通过调用mysql_use_result()初始化一个一行一行地结果集合的检索。该函数初始化检索， 但是实际上不从服务器获得任何行。
+
+在两种情况中，你通过mysql_fetch_row()存取行。用mysql_store_result()、 mysql_fetch_row()储存取已经从服务器被取出的行。用mysql_use_result()、mysql_fetch_row()实际上 从服务器检索行。调用mysql_fetch_lengths()可获得关于每行中数据值尺寸的信息。
+
+在你用完一个结果集合以后，调用mysql_free_result()释放由它使用的内存。
+
+两种检索机制是互补的。客户程序应该选择最适合他们的要求的途径。在实践中，客户通常更愿意使用mysql_store_result()。
+
+mysql_store_result()的一个优点是既然行均被客户取到，你不仅能顺序存取行，你也能mysql_data_seek()或 mysql_row_seek()在结果集合中前后移动以改变在结果集合中的当前行位置。你也能通过调用mysql_num_rows()知道有多少行。 另一方面，mysql_store_result()的内存需求对较大结果集合可能很高，并且你最可能遇到out-of-memory情况。
+
+mysql_use_result()的一个优点是客户为结果集合需要较少的内存，因为它一次只是维持一行(并且因为有较少的分配开 销，mysql_use_result()能更快些)。缺点是你必须尽快处理每一行以避免困住服务器，你不必再结果集合中随意存取行(你只能顺序存取 行)，而且你不知道在结果集合中有多少行，直到你检索全部结果。还有，你必须检索出所有行，即使你在检索中途确定你已找到了想寻找的信息。
+
+API使得客户正确应答查询成为可能(仅检索必要的行)，不用知道查询是否是一个SELECT。你可以通过在mysql_query()（或 mysql_real_query())之后调用mysql_store_result()做到。如果结果集合调用成功并且查询是一个SELECT，你能 读取行。如果结果集合调用，调用mysql_field_count()确定结果是否是实际期望的。如果mysql_field_count()返回0， 查询没有返回数据(表明它是一个INSERT、UPDATE、DELETE等)，所以不期望返回行。如果mysql_field_count()是非零， 查询应该有返回行，但是没有。这表明查询是一个失败的SELECT。见mysql_field_count()如何能做到的例子的描述。
+
+mysql_store_result()和mysql_use_result()都允许你获得有关组成结果集合的字段的信息(字段数量、他们的名 字和类型等等)。你可以通过重复调用mysql_fetch_field()在行中顺序存取字段信息，或调用 mysql_fetch_field_direct()存取行中的字段编号。当前字段光标位置可以通过调用mysql_field_seek()改变，设 置字段光标影响到后续mysql_fetch_field()调用。你也能通过调用mysql_fetch_fields()马上获得字段信息。
+
+对于检测和报告错误，MySQL借助于mysql_errno()和mysql_error()函数提供错误信息的存取。他们返回最近调用的可能成功或失败的函数的错误代码或错误消息，允许你确定何时发生一个错误和什么错误。
+
+20.4 C API函数描述
+在下面的描述中，一个NULL参数或返回值含义是在C编程语言环境的NULL，不是一个MySQL NULL值。
+
+返回一个值的函数一般返回一个指针或一个整数。除非另外指定，返回一个指针的函数返回一个非 NULL值表明成功，或一个NULL值表明一个错误，而返回一个整数的函数返回零表示成功，或非零表示一个错误。注意，“非零”只有这个含义。除非函数描 述另外说明，不要测试一个零以外的其他值：
+
+if (result)                   /* 正确 */
+   ... error ...
+
+if (result < 0)               /* 不正确 */
+   ... error ...
+
+if (result == -1)             /* 不正确 */
+   ... error ...
+
+
+当函数返回一个错误时，函数描述的错误小节列出错误可能的类型。你可以调用mysql_errno()找出发生了这些重的哪一个。错误的字符串表示可以调用mysql_error()获得。
+
+20.4.1 mysql_affected_rows()
+my_ulonglong mysql_affected_rows(MYSQL *mysql)
+
+20.4.1.1 说明
+返回受到最后一个UPDATE、DELETE或INSERT查询影响(变化)的行数。可以在针对UPDATE、DELETE或INSERT语句的 mysql_query()之后立即调用。对于SELECT语句，mysql_affected_rows()的功能于mysql_num_rows() 相同。
+
+mysql_affected_rows()目前以一个宏(macro)来实现。
+
+20.4.1.2 返回值
+大于零的一个整数表示受到影响或检索出来的行数。零表示没有匹配查序中WHERE子句的记录或目前还没有查询被执行。-1表示查询返回一个错误，或对于一 个SELECT查询，mysql_affected_rows()在调用mysql_store_result()之前被调用。
+
+20.4.1.3 错误
+没有。
+
+20.4.1.4 范例
+mysql_query(&mysql,"UPDATE products SET cost=cost*1.25 WHERE group=10");
+printf("%d products updated",mysql_affected_rows(&mysql));
+
+20.4.2 mysql_close()
+void mysql_close(MYSQL *mysql)
+
+20.4.2.1 说明
+关闭一个以前打开了的连接。如果句柄由mysql_init()或mysql_connect()自动分配，mysql_close()也释放被mysql指向的连接句柄。
+
+20.4.2.2 返回值
+没有。
+
+20.4.2.3 错误
+CR_COMMANDS_OUT_OF_SYNC 
+命令以一个不正确的次序被执行。 
+CR_SERVER_GONE_ERROR 
+MySQL服务器关闭了。 
+CR_SERVER_LOST 
+对服务者的连接在查询期间失去。 
+CR_UNKNOWN_ERROR 
+发生一个未知的错误。
+
+20.4.3 mysql_connect()
+MYSQL *mysql_connect(MYSQL *mysql, const char *host, const char *user, const char *passwd)
+
+20.4.3.1 说明
+该函数不推荐使用，而更好使用mysql_real_connect()。
+
+mysql_connect()试图建立一个对运行在host的一个MySQL数据库引擎的连接。mysql_connect()必须在你能执行其他API函数之前成功地完成，除了mysql_get_client_info()。
+
+参数的含义与mysql_connect()相应的参数相同，不同的是连接参数可以是NULL。在这种情况下，C API 自动为连接结构分配内存，并且当你调用mysql_close()，释放它。这种方法的缺点是如果连接失败，你不能检索出一条错误消息。（为了从 mysql_errno()或mysql_error()得到错误信息，你必须提供一个有效的MYSQL指针。）
+
+20.4.3.2 返回值
+同mysql_real_connect()。
+
+20.4.3.3 错误
+同mysql_real_connect()。
+
+
+20.4.4mysql_change_user()
+my_bool mysql_change_user(MYSQL *mysql, const char *user, const char *password, const char *db)
+
+20.4.4.1 说明
+改变用户并且使得由db指定数据库成为由mysql指定的连接上的缺省(当前)数据库。在随后的查询中，这个数据库是不包括一个明确的数据库指定符的表引用的缺省值。
+
+这个函数功能在MySQL 3.23.3中引入。
+
+除非连接的用户能被认证或如果他没有权限使用数据库，mysql_change_user()失败。在这种情况下，用户和数据库都没被改变。
+
+如果你不想有一个缺省数据库，db参数可以被设置为NULL。
+
+20.4.4.2 返回值
+成功，零。如果发生一个错误发生，非零。
+
+20.4.4.3 错误
+与你能从mysql_real_connect()得到的相同。
+
+CR_COMMANDS_OUT_OF_SYNC 
+命令以一个不正确的次序被执行。 
+CR_SERVER_GONE_ERROR 
+MySQL服务者关闭了。 
+CR_SERVER_LOST 
+对服务者的连接在查询期间失去。 
+CR_UNKNOWN_ERROR 
+发生一个未知的错误。 
+ER_UNKNOWN_COM_ERROR 
+MySQL服务器未实现这个命令(可能是一个老的服务器） 
+ER_ACCESS_DENIED_ERROR 
+用户或口令错误。 
+ER_BAD_DB_ERROR 
+数据库不存在。 
+ER_DBACCESS_DENIED_ERROR 
+用户没有数据库的存取权利。 
+ER_WRONG_DB_NAME 
+数据库名字太长。 
+20.4.4.4 范例
+if (mysql_change_user(&mysql, "user", "password", "new_database"))
+{
+fprintf(stderr, "Failed to change user. Error: %s\n",
+          mysql_error(&mysql));
+}
+
+20.4.5 mysql_create_db()
+int mysql_create_db(MYSQL *mysql, const char *db)
+
+20.4.5.1 说明
+创建由db参数命名的数据库。
+
+这个函数不推荐，而最好使用mysql_query()发出一条SQL CREATE DATABASE语句。
+
+20.4.5.2 返回值
+如果数据库成功地被创造，零。如果发生一个错误，非零。
+
+20.4.5.3 错误
+CR_COMMANDS_OUT_OF_SYNC 
+命令以一个不正确的次序被执行。 
+CR_SERVER_GONE_ERROR 
+MySQL服务器关闭了。 
+CR_SERVER_LOST 
+对服务者的连接在查询期间失去。 
+CR_UNKNOWN_ERROR 
+发生一个未知的错误。 
+20.4.5.4 范例
+if(mysql_create_db(&mysql, "my_database"))
+{
+fprintf(stderr, "Failed to create new database. Error: %s\n",
+          mysql_error(&mysql));
+}
+
+20.4.6 mysql_data_seek()
+void mysql_data_seek(MYSQL_RES *result, unsigned long long offset)
+
+20.4.6.1 说明
+在一个查询结果集合中定位任意行。这要求结果集合结构包含查询的全部结果，这样mysql_data_seek()可以仅需与mysql_store_result()一起使用，不是与mysql_use_result()。
+
+偏移量应该是从0到mysql_num_rows(result)-1范围的一个值。
+
+20.4.6.2 返回值
+无。
+
+20.4.6.3 错误
+无。
+
+　
+
+20.4.7 mysql_debug()
+void mysql_debug(char *debug)
+
+20.4.7.1 说明
+用一个给定字符串做一个DBUG_PUSH。mysql_debug()使用Fred Fish 调试库。为了使用这个函数，你必须编译客户库以支持调试。见G.1 调试一个MySQL服务器和节G.2 调试一个MySQL客户。
+
+20.4.7.2 返回值
+无。
+
+20.4.7.3 错误
+无。
+
+20.4.7.4 范例
+下面所示的调用使得客户库在客户机器上的“/tmp/client.trace”中产生一个跟踪文件：
+
+mysql_debug("d:t:O,/tmp/client.trace");
+
+20.4.8 mysql_drop_db()
+int mysql_drop_db(MYSQL *mysql, const char *db)
+
+20.4.8.1 说明
+抛弃由db参数命名的数据库。
+
+这个函数不推荐，而最好使用mysql_query()发出一条SQL DROP DATABASE语句。
+
+20.4.8.2 返回值
+如果数据库成功地被破抛弃，零。如果发生一个错误，非零。
+
+20.4.8.3 错误
+CR_COMMANDS_OUT_OF_SYNC 
+命令以一个不正确的次序被执行。 
+CR_SERVER_GONE_ERROR 
+MySQL服务器关闭了。 
+CR_SERVER_LOST 
+对服务者的连接在查询期间失去。 
+CR_UNKNOWN_ERROR 
+发生一个未知的错误。 
+20.4.8.4 范例
+if(mysql_drop_db(&mysql, "my_database"))
+fprintf(stderr, "Failed to drop the database: Error: %s\n",
+         mysql_error(&mysql));
+
+20.4.9 mysql_dump_debug_info()
+int mysql_dump_debug_info(MYSQL *mysql)
+
+20.4.9.1 说明
+指示服务者将一些调试信息写入日志文件。连接的用户对此必须有precess权限才能工作。
+
+20.4.9.2 返回值
+如果命令成功，零。如果发生一个错误，非零。
+
+20.4.9.3 错误
+CR_COMMANDS_OUT_OF_SYNC 
+命令以一个不正确的次序被执行。 
+CR_SERVER_GONE_ERROR 
+MySQL服务者关闭了。 
+CR_SERVER_LOST 
+对服务器的连接在查询期间失去。 
+CR_UNKNOWN_ERROR 
+发生一个未知的错误。 
+
+
+20.4.10 mysql_eof()
+my_bool mysql_eof(MYSQL_RES *result)
+
+20.4.10.1 说明
+这个函数不推荐，而使用mysql_errno()或mysql_error()。
+
+mysql_eof()确定是否已经读到了一个结果集合的最后一行。
+
+如果你从成功的mysql_store_result()调用获得一个结果集合，客户程序用一个操作收到全部集合。在这种情况下，从mysql_fetch_row()返回一个NULL总是意味着已经到达了结果集合的尾部，没必要调用mysql_eof()。
+
+在另一方面，如果你使用mysql_use_result()初始化一个结果集合的检索，该集合的行随着你重复调用 mysql_fetch_row()一个一个地从服务器获得。因为在这个过程中在连接上可能发生一个错误，从mysql_fetch_row()返回一个 NULL值并不意味着集合正常到达了尾部。在这种情况下，你能使用mysql_eof()确定发生了什么。如果到达结果集合的尾 部，mysql_eof()返回非零值，并且如果发生一个错误，返回零。
+
+在时间上，mysql_eof()先于标准MySQL错误函数mysql_errno()和mysql_error()。因为这些错误函数提供相同 的信息，他们的使用更好mysql_eof()，它现在不建议使用。（事实上，他们提供更多的信息，因为mysql_eof()值返回一个布尔值，而错误 函数指出当发生错误时的出错原因。）
+
+20.4.10.2 返回值
+如果发生一个错误，零。如果到达结果集合的结束，非零。
+
+20.4.10.3 错误
+无。
+
+20.4.10.4 范例
+下列例子显示你必须如何使用mysql_eof()：
+
+mysql_query(&mysql,"SELECT * FROM some_table");
+result = mysql_use_result(&mysql);
+while((row = mysql_fetch_row(result)))
+{
+   // do something with data
+}
+if(!mysql_eof(result)) // mysql_fetch_row() failed due to an error
+{
+   fprintf(stderr, "Error: %s\n", mysql_error(&mysql));
+}
+
+然而，你可以用标准MySQL错误函数完成同样的效果：
+
+mysql_query(&mysql,"SELECT * FROM some_table");
+result = mysql_use_result(&mysql);
+while((row = mysql_fetch_row(result)))
+{
+   // do something with data
+}
+if(mysql_errno(&mysql)) // mysql_fetch_row() failed due to an error
+{
+   fprintf(stderr, "Error: %s\n", mysql_error(&mysql));
+}
+
+20.4.11 mysql_errno()
+unsigned int mysql_errno(MYSQL *mysql)
+
+20.4.11.1 说明
+对于由mysql指定的连接，mysql_errno()返回最近调用的可能成功或失败的API函数的错误代码。返回值零意味着没有错误发生。客户错误消息编号列出在MySQL“errmsg.h”头文件中。服务器错误消息编号列出在“mysqld_error.h”中。
+
+20.4.11.2 返回值：
+一个错误代码值。如果没有错误发生，零。
+
+20.4.11.3 错误
+无。
+
+
+20.4.12 mysql_error()
+char *mysql_error(MYSQL *mysql)
+
+20.4.12.1 说明
+对于由mysql指定的连接，mysql_errno()返回最近调用的可能成功或失败的API函数的错误代码。如果没有错误发生，返回空字符串("")。这意味着下列两个测试是等价的：
+
+if(mysql_errno(&mysql))
+{
+   // an error occurred
+}
+
+if(mysql_error(&mysql)[0] != '\0')
+{
+   // an error occurred
+}
+
+客户错误消息的语言可通过重新编译MySQL客户库来改变。目前，你能在几种不同的语言间选取错误消息。见9.1 MySQL支持什么语言？。
+
+20.4.12.2 返回值
+一个描述错误的字符串。如果没有错误发生，空字符串。
+
+20.4.12.3 错误
+无。
+
+　
+
+20.4.13 mysql_escape_string()
+unsigned int mysql_escape_string(char *to, const char *from, unsigned int length)
+
+20.4.13.1 说明
+把在from中的字符串编码为在一条SQL语句中可以发给服务器的转义的SQL字符串，将结果放在to中， 并且加上一个终止的空字节。编码的字符是NUL（ASCII 0)、‘\n’、‘\r’、‘\’、‘'’、‘"’和Control-Z(见7.1 文字：如何写字符串和数字)。
+
+由from指向的字符串必须是length个字节长。你必须分配to的缓冲区至少length*2+1个字节长。（在更坏的情况，每个字符可能需要 使用2个字节被编码，并且你需要为终止空字节的空间) 当mysql_escape_string()返回时，to的内容将是空字符终止的字符串。返回值是编码后的字符串的长度，不包括终止空字符。
+
+20.4.13.2 范例
+char query[1000],*end;
+
+end = strmov(query,"INSERT INTO test_table values(");
+*end++ = '\'';
+end += mysql_escape_string(end,"What's this",11);
+*end++ = '\'';
+*end++ = ',';
+*end++ = '\'';
+end += mysql_escape_string(end,"binary data: \0\r\n",16);
+*end++ = '\'';
+*end++ = ')';
+
+if (mysql_real_query(&mysql,query,(unsigned int) (end - query)))
+{
+fprintf(stderr, "Failed to insert row, Error: %s\n",
+          mysql_error(&mysql));
+}
+
+例子中所用的strmov()函数被包括在mysqlclient库中且功能类似于strcpy()，但是返回一个指向空终止的第一个参数的指针。
+
+20.4.13.3 返回值
+放进to的值的长度，不包括终止空字符。
+
+20.4.13.4 错误
+无。
+
+　
+
+20.4.14 mysql_fetch_field()
+MYSQL_FIELD *mysql_fetch_field(MYSQL_RES *result)
+
+20.4.14.1 说明
+返回作为一个MYSQL_FIELD结构的一个结果集合的一个列的定义。重复调用这个函数在结果集合中检索所有关于列的信息。当没有剩下更多的字段时，mysql_fetch_field()返回NULL。
+
+在每次你执行一个新的SELECT查询，mysql_fetch_field()被重置（reset)以返回有关第一列的信息。由mysql_fetch_field()返回的字段也受调用mysql_field_seek()的影响。
+
+如果你调用mysql_query()在一张表上执行一个SELECT，但是没调用mysql_store_result()，如果你调用 mysql_fetch_field()询问一个BLOB字段的长度，MySQL返回缺省BLOB长度(8K字节)。（选择8K的长度是因为MySQL不 知道BLOB的最大长度。这应该在某个时候是它可配置) 一旦你已经检索了结果集合，field->max_length包含了在特定查询中对于该列最大值的长度。
+
+20.4.14.2 返回值
+当前列的MYSQL_FIELD结构。如果没有列剩下，NULL。
+
+20.4.14.3 错误
+无。
+
+20.4.14.4 范例
+MYSQL_FIELD *field;
+
+while((field = mysql_fetch_field(result)))
+{
+   printf("field name %s\n", field->name);
+}
+
+20.4.15 mysql_fetch_fields()
+MYSQL_FIELD *mysql_fetch_fields(MYSQL_RES *result)
+
+20.4.15.1 说明
+返回一个结果集合的所有MYSQL_FIELD结构的数组。每个结构提供结果结合中一列的字段定义。
+
+20.4.15.2 返回值
+一个结果集合的所有MYSQL_FIELD结构的一个数组。
+
+20.4.15.3 错误
+无。
+
+20.4.15.4 范例
+unsigned int num_fields;
+unsigned int i;
+MYSQL_FIELD *fields;
+
+num_fields = mysql_num_fields(result);
+fields = mysql_fetch_fields(result);
+for(i = 0; i < num_fields; i++)
+{
+printf("Field %u is %s\n", i, fields[i].name);
+}
+
+20.4.16 mysql_fetch_field_direct()
+MYSQL_FIELD *mysql_fetch_field_direct(MYSQL_RES *result, unsigned int fieldnr)
+
+20.4.16.1 说明
+给定在一个结果集合中的一个列的字段编号fieldnr，返回作为MYSQL_FIELD结构的列的字段定义。你可以使用这个函数检索任意列的义。fieldnr的值应该在从0到mysql_num_fields(result)-1范围内。
+
+20.4.16.2 返回值
+指定列的MYSQL_FIELD结构。
+
+20.4.16.3 错误
+无。
+
+20.4.16.4 范例
+unsigned int num_fields;
+unsigned int i;
+MYSQL_FIELD *field;
+
+num_fields = mysql_num_fields(result);
+for(i = 0; i < num_fields; i++)
+{
+   field = mysql_fetch_field_direct(result, i);
+   printf("Field %u is %s\n", i, field->name);
+}
+
+20.4.17 mysql_fetch_lengths()
+unsigned long *mysql_fetch_lengths(MYSQL_RES *result)
+
+20.4.17.1 说明
+返回在结果集合内的当前行的列长度。如果你计划拷贝字段值，这个长度信息对优化也是有用的，因为你可以避免调用strlen()。另外，如果结果集合中包含二进制数据，你必须使用这个函数确定数据的大小，因为strlen()对包含空字符的任何字段返回不正确的结果。
+
+空列和包含NULL的列的长度值是零。为了看清如何区分这两种情况，见mysql_fetch_row()的说明。
+
+20.4.17.2 返回值
+表示每列大小的无符号长整数的一个数组(不包括任何终止空字符)。如果出现一个错误，NULL。
+ 
