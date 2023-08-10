@@ -1,0 +1,8 @@
+安装包是两个
+
+第一个   http://download.oracle.com/otn/nt/oracle12c/121010/winx64_12c_database_1of2.zip  //将这个地址复制到你的游览器或者下载工具上，就可以下在windows 64位的数据库了
+
+第二个 http://download.oracle.com/otn/nt/oracle12c/121010/winx64_12c_database_2of2.zip  //将这个地址复制到你的游览器或者下载工具上，就可以下在windows 64位的数据库了
+
+
+将第二个 文件包解压到第一个文件包里面的database路径下 ， 在点击setup 进行安装 // 北大青鸟106班级 ;)
