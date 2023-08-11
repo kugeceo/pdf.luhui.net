@@ -1,0 +1,369 @@
+——我的VS.NET学习之旅 
+
+　　　　　　 　　　屠恩海（SunHai）
+
+
+　　 开发工具：Microsoft Visual Studio .NET 2003
+　　 操作系统：Windows XP
+
+　　题记：即使你没有一点编程经验，只要你愿意，并理解本文介绍的学习方法，你也可以象作者一样轻松、愉快地步入程序设计之门。让我们一起开始激动人心的VS.NET之旅。
+　　 
+
+　　在26岁的时候，给自己定下目标，35岁之前必须掌英语和程序设计。至今刚过而立，程序和英语都学得不怎么样，对学习方法倒是有所体悟，愿与大家分享。
+　　　
+　　在此先介绍一下我的情况。26岁前主要从事语文教学，对计算机及英语可以说一窍不通。说出来可能让您笑话：计算机不会上网；英语不认识音标。我这人水平虽然不怎样，志向却比天高，下决心改变自己，说干就干，花7000大洋购来电脑，开始自学计算机。26岁，人生翻开新篇章。
+　　首先把自家电脑来个开膛破肚，把硬件拆了装，装了拆（可怜我的主板，修了几次，还是报废；显卡由于带电插拔烧断了“脚”，还是手机店的朋友帮忙焊接上的）。为了从网上快速查找到需要的教程文章，忍痛每月花100大洋窄带包月，想当时Down个X片足足用了两天两夜，结果下集只有声音没有图像，还把他听完，呜乎！
+　　我一向提倡在工作中学习，学的东西要和工作相关，工作和学习互相促进。做语文教师虽也可以自学计算机，但我觉得进程太慢了（那时我所在学校还未设计算机课程）。于是，刚学计算机不到半年的人“一不小心”就成了电脑教师。还好基本是入门级培训，不过也逼着我学得更快。本来我是用拼音加加输入法的，因为工作关系，只好改用五笔。全国计算机等级考试要考DOS，于是又学了DOS。本来用FrontPage做网页，现在改用Dreamweaver MX,还有FireWorks MX,Flash MX也懂一点。对着主板随机手册和英文词典尝试几次，开机CMOS也可以进出自如。什么系统优化，GHOST系统备份都不在话下。做的网页虽然界面不怎么样，IP日访问量却是每天300以上。直到29岁，对Windows应用编程却还是一点不懂，VB6删了装，装了删，反复几次，觉得很难，始终未跨过编程第一道门槛。
+
+　　前日跟在嵊州信息港工作的MM交流，言及在自学Visual Studio .NET编程，MM问：你在闭关学习吗？我回答:你“赞助”学费的话我也许会考虑考虑。是的，网络是所大学，最大的大学，网络可以改变世界，终将改变世界。网络更可以改变人生，可以让我们的学习生活无比精采，只要你懂得利用，善于利用。现在已是网络时代，网络交流基本弥补了自学的不足，网络交流更有学校教育无可替代的优点。
+　　你看到这里，如果你没有接触过程序语言，想了解一下Visual Studio .NET是个什么“东东”，你会如何做？
+　　第一，查手头书籍，个人开个计算机图书馆是不现实的，要查找的知识往往在手头书籍中找不到；
+　　第二，打电话问朋友，朋友懂不懂是个问题，即使懂，他有没有空？他有空，他不清楚你这边的实际情况，他说的并不一定是你想要的，或者你不一定听得懂；
+　　第三，上图书馆查资料；
+　　第四，上书店；
+　　第五，跑去问老师；
+　　第六，…… 
+　　是的，传统是这么做的。但现在是网络时代了。你完全可能在不到一分钟之内找到你想要的答案。现在开启你的电脑（前提是你不认为购买电脑是极大的浪费），拨号上网（前提是你认为有必要给电脑配置Modem并接入网络），打开Internet Explorer，在地址栏输http://www.google.com,然后回车，在打开的页面中间输入框中敲入Visual Studio .NET 编程，注意中、英文中间有个空格。然后再回车，页面显示：共有 12,800 项查询结果，这是第 1 - 10 项。 搜索用时 0.28 秒，怎么样，还用我给你介绍Visual Studio .NET是什么东东吗。你就尽情地点击标题，查看您需要的知识吧。
+
+　　“软件是一个过去的时代，Web Service将要来临。”微软高级副总裁李开复说，“Web Service本身可以说是一个，一个风险;因为你可以相信，也可以不相信这件事情的发生。我只能说微软把整个公司都赌下去了，我们赌的未来就是Web Service。” 你可不要告诉我你比盖茨厉害多了。我们追求超越盖茨不一定现实，但我们可以早一步接触网络，利用网络。
+
+　　第一点体会：掌握计算机的基础知识，学会利用网络来进行学习，特别是利用搜索引擎（http://www.google.com)来查找你所需要的答案。
+
+
+
+　　29岁，开始从事企业管理工作。由于工作的关系，要用到MicroSoft Office办公软件，Office办公软件中有个 Visual Basic For Application （VBA）语言，是VB的一个子集，具备VB的所有优点，内置于Office中，只能在Office中创建、编程和运行，可以录制宏并自动转换为代码。由于初次接触编程语言，感到自学VBA有难度。每逢在学习中遇到难题、困惑的时候，我就到会到网上寻找学习资源，寻找答案。很快就找到关于MicroSoft Office的极好社区，如OfficeFanshttp://www.officefans.net) , ExcelHomehttp://club.excelhome.net/) ,于是立即在社区注册名字，学习VBA时中碰到疑问就到社区去问，每次都有网友热心解答。
+　　比如我的工作需要经常在Excel工作表第十行前插入空白行,要先选取工作表，鼠标指针定位到指定行，然后单击右键，选“插入”。重复操作，不胜其烦。于是在OfficeFans提问，经版主kengzeng指点，得到如下VBA代码：
+
+　　Sub insert()
+　　　 Sheets("sheet2").Rows("10:10").Insert
+　　End Sub 
+
+　　原来要四步操作，现在一按快捷键就完成了。我原来并不懂VBA,对“集合”、“对象”、“方法”、“属性”、“事件”、“枚举”等编程概念也不甚了了，但由于有网上高手的指点、帮助，我仍旧可以在工作中应用VBA,多次应用下来，用到的一些VBA代码不去死记也差不多会背了，对VBA的一些概念、理论开始有所了解。
+
+　　万事开头难。学习一开始碰到难题，如果解决不掉，就可能从此放弃学习了，如果这时有热心人解答他的疑问，然后在实际中立即可以应用新知识，新知识得到了即时巩固，学习的兴趣得到激发和增强，学习就得以继续和深化。当然，对于有“悬梁刺股”精神的朋友，自己看书刻苦钻研也可能会解决所有疑难问题，但那毕竟是极少数，我想多数人是象我这样的普通人。
+
+　　来而不往非礼也。在网上得到诸多大侠的指点，总感到好像欠了谁什么似的，就想到编一本电子书，把常见的Excel VBA学习教程集中到一起，可以帮助初学者快速入门。 2003年6月较空闲，刚好自己对Html语法也懂一点，就花了二周的时间，搜集整理了一本电子书，叫《Excel 应用宝典》，其中重点内容是Excel VBA。把电子书放到OfficeFans上供网友下载，极受欢迎。我为什么编这本电子书呢？真的是比较空闲的缘故？有空去泡MM不是很好，何必去做枯燥的文字整理工作，其实我是存有“私心”的？
+
+　　什么“私心”？这叫帮人即帮己，助人即助己。“佛”渡人其实也是为了渡己啊。我为了领悟这个道理，诸子百家，佛道儒易医，无所不涉，并在生活中曲折浮沉，这样还是用了“30年”时间（太夸张了，一出生就……？呵呵），各位比我聪明，应该早就明白此理。
+
+　　为什么助人即助己？
+　　 在学术上帮助别人，指点别人，就要站在别人的角度考虑，思考别人的思考，打破了小我的思维局限。
+　　 从信息角度讲，个人自修，知识的附加信息量较小，而在帮助别人过程中，存在人与人的信息交流，在信息交流中，知识信息得到强化。
+　　举一个例子，小孩子生活在英语环境中，3岁即口语流利，而我们的学校教育，大学毕业，英语学了十多年，还是哑巴英语的大有人在，为什么？
+　　小孩子记一个单词或句子，是在和外界信息交流中记忆的，确切地说，小孩子记住了当时信息交流的情境，通过情境的自然记忆实现单词或句子的自然记忆。学习口语如此，学习编程何尝不如此呢？你在某个问题上指点过别人，你的记忆印象可能就特别深，如果是个人看书自学，对于某个问题当时虽然理解，但附助记忆的情境信息量很小，时间长了就容易遗忘。
+　　所以，在学习编程的过程中，多和别人交流，多向高手虚心求教，多指点初学者，是在人为创造学习情境，在情境中强化记忆，强化理解。
+　　李阳提倡“疯狂英语”学习法，我则提倡“疯狂编程”学习法，也就是创造一切机会和别人交流编程经验，从交流中进行强化训练和学习。也要注意，交流是手段不是目的。
+　　交流编程经验的途径有很多：如论坛交流，媒体投稿，QQ、icq等通讯软件交流。个人觉得CSDN为我们提供的“个人专栏”非常好，您可以一边学习编程，一边记下心得，通过个人专栏和大家交流。
+
+
+　　VBA是VB的应用分支，我在工作中应用VBA,并自然地对VBA的概念、理论有了初步了解，这时再去看VB的教程，就感到分外亲切。因为VBA和VB在本质上是没有区别的。我终于可以跨入VB编程之门了。
+
+　　第二点体会：学习编程的过程中，既要善于向高手寻求帮助，更要乐于指导初学者。在交流中学习编程，这决不是宗教式道德说教，而是极其重要的学习方法和学习手段。
+
+
+　　 程序语言种类很多，Pconline的工具平台就列有VB/VB.NET、VC/C#、Delphi、Java、C++Builder等。到底学什么语言好呢？在Google输入语言 比较,查到一篇文章《编程语言的宗教狂热和十字军东征》，第一段就是：
+　　业余程序员最喜欢做的一件事就是对不同的语言进行比较。Java是否比C＋＋好？C＃是否会成为终极语言？凡此种种。从专业程序员的角度看来，这是最低级无趣的游戏。其一，在项目诸元确定之后，通常并没有选择语言的余地；其二，语言的生存本身就是一个达尔文主义的问题：设若两种语言有明确的可比较性，其中较劣的那一种必定早已被淘汰出局，又何来比较的必要？ 
+　　 
+　　我基于两个原则选择编程语言：
+　　 其一，适用自己的就是最好的。
+　　 其二，如果不知道什么适用自己（业余程序员开发软件基于个人爱好，往往有此困惑），那么优先选择MicroSoft的开发语言。
+　　我选的是VB（每个人的具体情况不，我的选择不一定适合你），我目前只考虑开发普通Windows应用软件，并希望Windows应有软件的开发和MicroSoft VBA的应用互相促进，说穿了，是精力有限，最好是一种语言，到处应用。
+　　于是在网上Down了N多的电子书，收藏夹里VB网站一大堆。常去的VB网站有1000VB ,AppleVB , cnDevx ，51DoNET等，但我发现，除了CSDN,VB社区论坛的人气大多不旺。
+　　
+　　 第一次接触VB,没有基础，业余自学，如何快速掌握VB编程？
+　　 如果我有足够的时间（业余自学，时间显然不足），有足够的耐心（恰恰我是耐心不那么足的人），可以按照教程一个一个控件学习、练习，这个过程无疑是有益的，但对我来说显然是过于枯燥的。或许如此下去,半年以后，我的VB基础比较好了，但可能不到半年，早就被我放弃。这就要另辟蹊径。我的设想是，一开始就定下一个软件项目，带着目的去学，以一个控件为核心，在完成项目的过程中，逐步掌握VB控件的使用和编程基本理论。项目基本完成的时候，VB编程也就入门了。由于是带着项目去学，目的明确，学习过程就不会枯燥。如果你做共享软件，你的项目创意又比较好，你VB编程入之门之日，也许你的软件也就可以为你带来Money了，呵呵！
+　　开发一个什么样的软件呢？ SUN提出了激动人心的口号:“网络就是计算机”。计算机的应用主要在于网络，于是定位于开发网络软件。我经常到网络社区论坛交流，注册时要一项项填写信息，发言时也要一项项填写信息，感觉很费时间，打算自己编软件来实现自动注册，自动发言。　　 
+　　 
+　　 2003年5月学VBA时想用VBA实现在论坛自动注册和发言，实现起来有难度，就在网上找替代软件,找到了“按键精灵”http://www.vrbrothers.com/cn/qmacro），按键精灵是一个模拟鼠标键盘动作的软件。通过制作脚本，可以让按键精灵代替您的双手，自动执行一系列鼠标键盘的动作。 觉得很不错，就编写了一个脚本，用按键精灵自动实现如下功能：打开Internet Explorer，输入并打开网址，移动鼠标到指定座标，输入字符，然后按回车完成注册发言。比起手工输入，用按键精灵省力不少，但是不同网站，输入框的座标不同，要手动抓取，有没有更方便的软件呢？按键精灵社区里有人讲到EzScripthttp://ezscript.seed.cx/）功能更多，试用后发现在WindowsXP里反应不灵敏，再在Google狂搜，找到了比按键精灵更好的软件PCWorkerhttp://www.pcworker.net） 。PCWorker配合网络填表软件FORMGHOST ，再加上MyIE,可实现双击注册或发言，需要的话，还可在标题加上随机数，而且在PCWorker中代码的可读性较强，且作者能及时听取网友意见对软件加以改进。
+　　PCWorker虽然好用，但要读取识别码图片上的数字，这是PCWorker类软件不能胜任的。于是决心用VB6来实现所有自己想要实现的功能。2003年10月开始学习VB6,到11月半，项目基本完成。我是怎么做的呢？
+
+　　首先浏览各VB网站有关文章，发现用WebBrowser控件能实现我所欲求的功能。
+　　其次，大量搜集WebBrowser控件相关文章和代码。
+　　　　 用Google搜寻。如用“WebBrowser”为关键词搜索，共有 216,000 项查询结果 。
+　　　　 CSDN论坛搜索。导航http://expert.csdn.net/Expert/Forum.asp，登陆论坛，点击“搜索”，选“全部论坛”，点选“最新数据搜索”，用“WebBrowser”为关键词，然后点击“对选择的大类进行搜索”，哇，有好几百篇有关“WebBrowser”的问答。
+　　　　　在CSDN论坛 作全文检索，寻找更多有检值的内容。
+　　　　 CSDN文档搜索，导航http://www.csdn.net/develop，在右上角搜索输入框输入"WebBrowser",选择“文档标题”，再单击“搜索”，我得到30篇有关“WebBrowser"相关文档。
+　　 　在实际编程中遇到困难，还可以到CSDN论坛提问，寻求帮助。我就曾在CSDN论坛问了不下十个有关Webbrowser有关问题，并都得到了解答。
+　　 
+　　由于善于运用以上三步，1个半月时间，我的软件基本出炉，VB编程也已基本入门。软件实现原理是，用WebBrowser控件，先Navigate到指定网址，然后填写表单。主要代码如下：
+
+Private Sub cmdfill_click()　　'点击按钮开始发言
+On Error Resume Next
+　　Dim vdoc As IHTMLDocument2
+　　Dim vTag
+
+　　Dim i As Integer
+　　If Not brow.Busy Then '如果下载完成，就执行下面程序
+　　　　Set vdoc = brow.Document　　
+　　　　For i = 0 To vdoc.All.Length - 1 '检测所有标签
+　　　　　　If UCase(vdoc.All(i).tagName) = "INPUT" Or UCase(vdoc.All(i).tagName) = "TEXTAREA" Then
+　　　　　　 '找到input标签
+　　　　　　　　Set vTag = vdoc.All(i)
+　　　　　　　　　　If vTag.Type = "text" Or vTag.Type = "password" Then '看看是不是我们需要的
+　　　　　　　　　　　　Select Case vTag.Name
+　　　　　　　　　　　　　　Case "name"
+　　　　　　　　　　　　　　　　vTag.Value = "sunHai" 
+　　　　　　　　　　　　　　Case "passwd"
+　　　　　　　　　　　　　　　　vTag.Value = "sunHaiGood"
+　　　　　　　　　　　　　　Case "subject" '写标题，不同的网页表单，vTage.name的值不同，要查看网页源码修改
+　　　　　　　　　　　　　　　　vTag.Value = "Hello,sunHai!" 
+　　　　　　　　　　　　End Select
+
+　　　　　　　　　　'ElseIf vTag.Type = "submit" And vTag.Value = "发表" Then '找到发表按钮。
+　　　　　　　　　　　　' vTag.Click
+　　　　　　　　　　End If
+　　　　　　End If
+　　　　Next i
+
+　　　　vdoc.Forms(0).submit　'也可以用这句来提交表单
+　　End If
+End Sub
+
+
+
+第三点体会：从应用入手，从解决实际问题出发，在完成项目的过程中，逐步掌握控件的使用技巧和编程基本理论。
+
+
+　　在学习VB6的同时自然接触到 Microsoft Visual Studio .NET（简称VS.NET）。在十年之前，Visual Basic 1.0 成为数以百万计的开发人员的革命性的应用程序开发语言。现在，Visual Studio .NET 为未来的十年做好了准备（有点象为MicroSoft打广告，你说呢），VS.NE是用于创建下一代应用程序的理想而又现实的开发工具，是一个从一开始就是为 XML Web 服务创建的开发环境。通过允许应用程序通过 Internet 沟通和共享数据，XML Web 服务使业务能够从 Internet 转换为用于集成和传送它们的核心商业价值的真正平台。Visual Studio .NET 和 XML Web 服务提供简单、灵活、基于标准的模型，允许开发人员从新的和现有的代码汇编应用程序，而与平台、编程语言或对象模型无关。 
+　　VS.NET　2003中主要有包含以下几种开发工具：
+　 　 Visual Basic .NET 2003 
+　　　Visual C# .NET 2003 
+　　　Visual C++ .NET 2003 
+　　　Visual J# .NET 2003
+　　核心是 Visual Basic .NET 2003和Visual C# .NET 2003。我主要用VB.NET。在VS.NET中的不同开发工具的差别主要表现为语法的差异，因此，用VB.NET的人，一般也可以看懂C#.NET的代码，反之亦然。
+
+　　有人说，“学习要面向未来”，2003年12月，我的主要开发工具从VB6转为VB.NET，2004年1月1日，把我新开发的软件从VB6语言转写为VB.NET语言,并正式命名为网络广告王(AdKing)。
+
+　　在转向VB.NET的时候，我考虑：
+　　第一、VS.NET的本质是什么？
+　　VS.NET是从一开始就是为 XML Web 服务创建的开发环境。通过允许应用程序通过 Internet 沟通和共享数据，XML Web 服务使业务能够从 Internet 转换为用于集成和传送它们的核心商业价值的真正平台。
+　　 学习要面向未来，就要学习最新的技术，现在的学习为将来的应用作铺垫。我的软件要突出两点，一是基于Internet的应用，二是要应用XML技术。这样，我就可以在应用中尽快掌握新技术，否则，只是为学习而学习，无疑会是比较枯燥，也容易遗忘。
+　　第二、原来用VB6写的AdKing，主要用到WebBrowser控件，网页加载速度慢，会下载图片，Flash等许多不需要的东西，在VS.NET中必须用其他方法实现同样功能。
+　　在CSDN诸位朋友的帮助下，并参考许多资料，我的AdKing已基本具备.NET特征。
+　　
+　　1.应用了XML技术
+　　VB6中，INI文件通常用来保存系统信息、配置信息，读写INI文件要用到API函数，使用起来不是很方便。在VS.NET中，已经没有必要用INI文件来保存和读取一些信息了，可以改用VS.NET中的读写XML文件的类。而且，在VS.NET　2003的后续版本中，处理XML有关功能将得到进一步增强。
+　　读取XML到DataGrid代码：
+
+
+　Public MyXMLDataSet As New DataSet("XMLDataSet")
+' DataSet 是数据的一种内存驻留表示形式，无论它包含的数据'来自什么数据源，它都会提供一致的关系编程模型。一个 'DataSet 表示整个数据集，其中包含对数据进行包含、排序和约束的'表以及表间的关系。 
+　MyXMLDataSet.ReadXml("regid.xml") 　　'读入XML文件 
+　form1.DefInstance.DataGrid1.DataSource = MyXMLDataSet　　　'DefInstance是form1的共享属性， 我们不用创建实'例就可以直接用‘类名 .共享成员'的方法进行调用 ， 《Henry 的 VB.NET 之旅 ( 三 )— 共享成员》中有论述。
+　strName = MyXMLDataSet.Tables(0).Rows(0).Item("name").ToString '　　　从DataGrid中读取用户名信息。 
+
+
+　　
+　　从DataGrid1更新信息到XML文件代码：
+
+　Dim MyXmlDataSet As DataSet
+　MyXmlDataSet = CType(DataGrid1.DataSource, DataSet)　'类型转换
+　MyXmlDataSet.WriteXml("regid.xml") 　　　　　　　　　　'把信息写入XML文件 
+
+
+　　 
+　　如果不用DataGrid控件，读写XML文件中特定信息可以更简单：
+
+　　Dim xmlInfo As New XmlDocument 　　　　　 
+　　xmlInfo.Load("info.xml")　　　　'载入XML文件
+　　Dim str As string=xmlInfo.Item("RegInfo").Item("name").InnerText　　'用“Item”可以逐级往下读数据
+　　xmlInfo.Item("RegInfo").Item("pass").InnerText="MyPass"
+　　xmlInfo.Save("info.xml") 　　　'保存信息到xml文件 
+
+
+　　我原来打算用INI格式来保存AdKing的注册信息和发言信息，但是，一则读写INI不是很方便，二则XML在软件开发中越趋重要，于是一开始就用XML文件来保存有关信息。在刚接触VS.NET时本不知XML为何物，现在可自如读写XML，是否有点“高手”的感觉呢？（自我陶醉一下先）
+
+　　2.用HttpWebResponse相关类GET和POST信息
+　　用GET方式读取网页源代码：
+
+　　Dim httpReq As System.Net.HttpWebRequest　　'HttpWebRequest 类对 WebRequest 中定义的属性和方法提供支持'，也对使用户能够直接与使用 HTTP 的服务器交互的附加属性和方法提供支持。 
+　　Dim httpResp As System.Net.HttpWebResponse 　' HttpWebResponse 类用于生成发送 HTTP 请求和接收 HTTP 响'应的 HTTP 独立客户端应用程序。
+　　Dim url as String="http://sunhai.tianyablog.com" 　　'这是我的小站，有空来坐坐
+　　Dim httpURL As New System.Uri(url)
+　　httpReq = CType(WebRequest.Create(httpURL), HttpWebRequest)
+　　httpReq.Method = "GET"
+　　httpResp = CType(httpReq.GetResponse(), HttpWebResponse)　 　　
+　　Dim reader As StreamReader = _
+　　New StreamReader(httpResp.GetResponseStream, System.Text.Encoding.GetEncoding("GB2312")) '如是中文，要设置编码格式为“GB2312”。
+　　Dim respHTML As String = reader.ReadToEnd()　　'respHTML就是网页源代码
+　　httpResp.Close() 
+
+
+
+
+　　向服务器POST信息：
+
+　　Dim httpUrl2 As New System.Uri("http://sunhai.tianyablog.com？" & "name=1&pass=6") ' “&”号后面是'注册信息,改成你自己的
+　　Dim req As HttpWebRequest
+　　req = CType(WebRequest.Create(httpUrl2), HttpWebRequest)
+　　req.Method = "POST"
+　　req.ContentType = "application/x-www-form-urlencoded"
+　　Dim bytesData() As Byte = System.Text.Encoding.ASCII.GetBytes("name=1&pass=6")
+　　req.ContentLength = bytesData.Length
+　　Dim postStream As Stream = req.GetRequestStream()
+　　postStream.Write(bytesData, 0, bytesData.Length)　　　'以上为向网络服务器POST信息
+
+　　Dim res As HttpWebResponse = CType(req.GetResponse(), HttpWebResponse)
+　　Dim reader As StreamReader = _
+　　New StreamReader(res.GetResponseStream, System.Text.Encoding.GetEncoding("GB2312"))
+　　Dim respHTML As String = reader.ReadToEnd()　　'respHTML为POST后网络服务器返回的信息
+　　　　MsgBox(respHTML)　　　　　　　　　　　　　　　'可用MsgBox查看返回的信息
+　　res.Close()
+
+
+
+
+
+　　3.用正则表达式从网页源代码中提取网址
+　　得到网页源代后，我们可以对源代码进行处理，比如提取其中的链接，Email地址，图片地址，Flash等等。 
+
+　　Dim r As System.Text.RegularExpressions.Regex
+　　Dim m As System.Text.RegularExpressions.MatchCollection
+　　Dim respHtml As String = "http://www.NETsh.Net/subdomains/f_s_o.php?leibie=shangmao"　'以这个地址举例
+　　strRegex = "http://([\w]+\.)+[\w]+(/[\w.?]+)+leibie[=]{1}[\w]+" 　'用这个正则表达式可以提取上面地址。通用'的提取链接正则表达式为“http://([\w-]+\.)+[\w-]+(/[\w- ./?%&=]*)?”。　　
+　　r = New System.Text.RegularExpressions.Regex(strRegex, 　　　System.Text.RegularExpressions.RegexOptions.IgnoreCase)
+　　m = r.Matches(respHTML)　　　
+　　Dim i As Integer　
+　　For i = 0 To m.Count - 1
+　　　　MsgBox(m(i).Value)
+　　Next i　
+
+
+
+
+
+　　第四点体会：要学习新技术，尽量在你的项目中应用新技术，在应用中学习，进步最快。
+
+　现在我的AdKing已经用.NET全面改写，并用上继承，重载，多线程等，所有这些在VB6中能否实现，从VB6转到.NET是否明智？
+
+　　从2003年10月开始学习VB6编程，11月半用VB6完成第1个软件——AdKing，到现在(20040117）用VB.NET技术改写AdKing。可算基本入门。全部用的业余时间，没有当面请教一个老师。原来没有一点编程基础。如果学得还算顺利的话，很大部分要归功于掌握并利用大量网络资源。下面列出我所掌握的VS.NET网络学习资源，有什么遗漏希望大家能指出。
+　　1.微软支持
+　　在你学习VS.NET的过程中，有疑问首先要向MicroSoft求助。如果你不懂得利用MicroSoft提供的庞大的学习资源，我要告诉你，你很不幸，你舍近求远了。
+　　（1）首先，你要安装MSDN,他比所有VS.NET书籍详细。我为了装MSDN，可是牺牺了我的98和XP双启动，改成WindowsXP单系统。装了MSDN后，你要学习正则表达式，VS.NET 2003中点击“帮助”，再点击“搜索”，然后输入“正则”，一回车，哇，找到470个主题，这下你慢慢研究吧。实在研究不透，也不用急，还有Google和CSDN呢。　　　 
+　　（2）在线Microsoft .NET 框架 SDK 快速入门教程http://chs.gotdotnet.com/QuickStart），可配合MSDN使用。分三块内容， ASP.NET | Windows 窗体 | 如何...?常见任务 。 “常见任务快速入门”旨在帮助您快速找到常见编程问题的答案。
+　　（3）微软中国社区http://www.mscommunity.com/Profile/）。在社区注册，有问题就到社区去提问吧。
+　 （4）在线中文MSDNhttp://www.microsoft.com/china/MSDN/default.asp）；在线英文MSDNhttp://msdn.microsoft.com/）,考考你的E文，不过有金山词霸在，我都不怕，你还用怕什么呢！
+　　（5）.NET主页http://www.microsoft.com/china/net）
+　 （6）Visual Studio .NET主页http://www.microsoft.com/china/msdn/vstudio/prodinfo/overview.asp)。
+　　 为什么选择VS.NET，为什么看好VS.NET,看看MicroSoft的Help文档有多详尽就知道了。如果你不去利用MicroSoft提供的庞大的Help资源，是不是有点对不起盖茨呢！　　 
+
+　　2.CSDNhttp://www.csdn.net/
+　　CSDN号称中国最大的开发者网络，确实不假。我最常去的是CSDN的
+　　文档http://www.csdn.net/develop/）
+　　论坛http://expert.csdn.net/expert/forum.asp)
+　　只要你善于利用搜索功能，你在开发中遇到的多数问题可在文档和论坛中找到答案。如果你在开发过程中遇到疑难，而你又认为 BillGates帮不上你的忙，那么，你就上CSDN吧，一定会让你满意的。
+　　 教你两个绝招，第一招，是“搜索大法”。遇到问题，首先是在CSDN的文档和论坛进行搜索，看有无类似答案。如不行，再下一招。
+　　 第二招，“提问大法”，只要有礼貌有诚意地在论坛提问，一定有许多人乐于回答你的问题。
+
+　　3.其他相关网站
+　　 有不少网站开辟VS.NET专栏，常去看看，必有收获。
+　　pconline跟我学NET专栏http://www.pconline.com.cn/pcedu/empolder/net/）
+
+　 yesky的Visual Studio.NET专栏http://www.yesky.com/SoftChannel/72342380467978240/index.shtml） 
+
+　 ccidnet的NET专区http://tech.ccidnet.com/pub/column/c340.html）
+
+　　4.资料下载
+　　如果不是包月上网，那么下载大量资源，再断线慢慢研究就很有必要了。
+
+　 网友提供的大量VS.NET资源下载ftp://qydn.vicp.net）　
+
+北京希望电子出版社图书素材资料下载http://www.b-xr.com/bbs.htm)
+　
+　　清华大学出版社VS.NET源码下载http://www.wenyuan.com.cn/xiazai.htm)
+
+　　5.国外资源
+　　 如果你的E文不错，不妨上E文网站去取经。　　
+
+　http://www.startvbdotnet.com 
+
+　http://www.vbdotnetheaven.com 
+
+　http://www.vbcity.com/ 
+
+　http://www.vbip.com 
+
+　http://www.a1vbcode.com/ 　　
+
+　http://searchvb.techtarget.com/ 
+
+　http://builder.com.com
+
+　http://www.codeproject.com 
+　　
+　http://www.planet-source-code.com/ 
+
+　http://sourceforge.net/　 
+
+　http://www.syncfusion.com/FAQ/WinForms/ 
+
+　http://www.123aspx.com 
+
+　http://panopticoncentral.net/ 
+
+　http://www.regexplib.com/ 
+
+　http://www.harding.edu/USER/fmccown/WWW/vbnet_csharp_comparison.html 
+
+　http://www.only4gurus.com/v2
+
+　http://www.gotdotnet.com 
+
+　http://www.programmersheaven.com/
+
+　http://www.aspnetpro.com
+
+　http://www.dotnetgenius.com/ 
+
+　http://www.devx.com/dotnet 
+
+　http://www.devcity.net 
+
+　http://www.devhood.com 
+
+　http://www.c-sharpcorner.com/ 
+
+　http://www.csharphelp.com/ 　　
+
+　　http://authors.aspalliance.com/aldotnet/examples/translate.aspx 
+
+　http://www.dotnet247.com 
+
+　http://www.datagridgirl.com
+　　　
+　http://www.codestudy.com 　　　 
+
+　　6.其他特色网站、专栏
+　　CSDN上Latitude的VS.NET专栏http://www.csdn.net/develop/author/netauthor/Latitude/）
+
+　 【孟宪会之精彩世界】http://xml.sz.luohuedu.net/xml/）　
+
+　　DotNet中华网http://www.aspxcn.com/）
+
+　　 ASP酷http://www.aspcool.com/） 
+
+　http://www.chinaaspx.com 
+http://www.webasp.net/ 
+
+　http://218.56.11.178:8009/ 　 海波.NET的水晶报表专栏
+
+　http://www.aspx8.cn/　　asp.net资源吧
+
+　http://www.cnblogs.com/　博客园
+
+　http://dotnet.mblogger.cn 
+
+　http://blog.joycode.com/　博客堂
+
+　　 
+　　 当然，还有一个地球人都知道的，全球最大的知识仓库，我不说，你也早就应该知道的，那不http://www.google.com又是什么！
+
+
+
+　　第五点体会：掌握并利用大量网络资源来辅助VS.NET的学习，你将事半功倍。
+
+　 
+我的QQ: 　26624998
+我的网站http://sunhai.tianyablog.com
+本文地址http://www.csdn.net/Develop/read_article.asp?id=23542
+

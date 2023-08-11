@@ -1,0 +1,774 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<HEAD>
+<TITLE>Visual Studio 2008 Service Pack 1 自述文件</TITLE><style type="text/css"> UL.toc, OL.toc { list-style: none; font-family: arial } UL, OL { font-family: arial } LI.tocline1 { font-weight: bold; font-family: arial } LI.tocline2 { font-weight: normal; font-family: arial; text-indent: 2em; }LI.tocline3 { font-weight: normal; font-family: arial; text-indent: 4em; }P { font-size: 0.8em; font-family: arial }H1, H2, H3, H4, span, LI { font-family: arial }
+                                       .style1
+                                       {
+                                           font-size: small;
+                                       }
+                                       .style2
+                                       {
+                                           font-family: Arial;
+                                       }
+                                       .style3
+                                       {
+                                           font-family: Arial;
+                                           font-weight: bold;
+                                           font-size: small;
+                                       }
+                                       .style4
+                                       {
+                                           font-family: Arial;
+                                           font-size: small;
+                                       }
+                                       .style5
+                                       {
+                                           font-size: small;
+                                           font-weight: bold;
+                                       }
+                                   </style></HEAD>
+<BODY>
+<H1>
+Visual Studio 2008 Service Pack 1 (SP1) 自述文件
+</H1>
+<H2>
+<A name="TOC">目录</A>
+</H2>
+<ul class="toc">
+<li class="tocline1">1. <A href="#System Requirements">系统要求</A></li>
+<li class="tocline2">1.1. <A href="#Supported Architectures">支持的体系结构</A></li>
+<li class="tocline2">1.2. <A href="#Supported Operating Systems">支持的操作系统</A></li>
+<li class="tocline2">1.3. <A href="#Installation Requirements">安装要求</A></li>
+<li class="tocline1">2. <A href="#Known Issues">已知问题</A></li>
+<li class="tocline2">2.1. <A href="#Installing">安装</A></li>
+<li class="tocline2">2.2. <A href="#Uninstalling">卸载</A></li>
+<li class="tocline3">2.2.1. <A href="#On machines with previous versions of Visual Studio">在安装有 Visual Studio 早期版本的计算机上</A></li>
+<li class="tocline3">2.2.2. <A href="#On machines with no previous versions of Visual Studio">在未安装 Visual Studio 早期版本的计算机上</A></li>
+<li class="tocline2">2.3. <A href="#Product Issues">产品问题</A></li>
+<li class="tocline3">2.3.1. <A href="#General Issues">一般问题</A></li>
+<li class="tocline3">2.3.2. <A href="#ADO.Net">ADO.Net</A></li>
+<li class="tocline3">2.3.3. <A href="#Languages">语言</A></li>
+<li class="tocline3">2.3.4. <A href="#LINQ">LINQ</A></li>
+<li class="tocline3">2.3.5. <A href="#Visual Studio Tools for Office">Visual Studio Tools for Office</A></li>
+<li class="tocline3">2.3.6. <A href="#Web Development">Web 开发</A></li>
+<li class="tocline3">2.3.7. <A href="#Windows Communication Foundation (WCF) Tools">Windows Communication Foundation (WCF) 工具</A></li>
+<li class="tocline3">2.3.8. <A href="#Windows Presentation Foundation (WPF) Designer for Visual Studio">Visual Studio Windows Presentation Foundation (WPF) 设计器</A></li>
+<li class="tocline3">2.3.9. <A href="#Windows Workflow Foundation (WF) Tools">Windows Workflow Foundation (WF) 工具</A></li>
+<li class="tocline3">2.3.10. <A href="#Windows SDK Integration">Windows SDK 集成</A></li>
+<li class="tocline1">3. <A href="#Related Links">相关链接</A></li>
+
+</UL>
+<H2>
+1. <A name="System Requirements">系统要求</A>
+</H2>
+<B>1.1.<A name="Supported Architectures">支持的体系结构</A> </B>
+
+<li class="style4">x86
+</li>
+    <li><span class="style4">x64 (WOW)</li>
+    
+        </span>
+    
+<P>
+    <b>1.2.<A name="Supported Operating Systems">支持的操作系统</A></b>
+
+</P>
+  
+  <li><span style="font-family: Arial; font-size: 0.8em;">Microsoft Windows XP</span></li>
+    <li><span style="font-family: Arial"></span><span style="font-family: Arial; font-size: 0.8em;">Microsoft Windows Server 2003</span>
+    </li>
+    <li><span style="font-family: Arial; font-size: 0.8em;">Microsoft Windows Server 2008</span></li>
+    <li><span style="font-size: 0.8em"><span style="font-family: Arial">Windows Vista</span> </span></li>
+<br />    <br /> <B>1.3.<A name="Hardware Requirements">硬件要求</A> </B>
+    
+<li><span style="font-family: Arial; font-size: 0.8em;">系统驱动器上要有 3.8 GB 可用空间，并且在安装 Visual Studio 的驱动器上有 600 MB 可用空间 <br /> &nbsp;&nbsp;&nbsp; 注意：您可以使用“磁盘清理”实用工具来移除临时文件。&nbsp;&nbsp;</span></li>
+      
+    <li><span style="font-size: 0.8em"><span style="font-family: Arial"><span>最低要求：1.6 GHz CPU，1024x768 显示器，5400 RPM 硬盘</span> </span></span></li>
+    <li><span style="font-size: 0.8em"><span style="font-family: Arial"><span>建议配置：2.2 GHz 或更快的 CPU，1280x1024 显示器，7200 RPM 或更快的硬盘&nbsp;</span> </span></span>
+    </li>
+    <li><span style="font-family: Arial; font-size: 0.8em;">在 Windows Vista 上：2.4 GHz CPU</span></li>
+    
+    <H2>
+2. <A name="Known Issues">已知问题</A>
+</H2>
+<H3>
+2.1 <A name="Installing">安装</A>
+</H3>
+
+<H4>
+2.1.1  Microsoft Synchronization Services for ADO.NET 1.0 for Devices 安装要求
+</H4>
+
+<P>Microsoft Synchronization Services for ADO.NET 1.0 for Devices 不随 VS2008 SP1 一起安装。用户必须下载 .msi 文件才能启用“智能设备”项目中的“本地数据库缓存”功能。</P>
+
+<P><U>解决此问题的方法：</U></P>
+
+<P>从下载中心下载并安装 Microsoft Synchronization Services for ADO.NET 1.0 for Devices 的 .msi 文件。</P>
+<P><A href="http://www.microsoft.com/downloads/details.aspx?FamilyId=75FEF59F-1B5E-49BC-A21A-9EF4F34DE6FC&amp;displaylang=en">http://www.microsoft.com/downloads/details.aspx?FamilyId=75FEF59F-1B5E-49BC-A21A-9EF4F34DE6FC&amp;displaylang=en</A> (英语)</P>
+
+<H4>
+2.1.2  安装 Visual Studio 2008 SP1 失败并显示“无法与服务器建立连接”消息
+</H4>
+        <span class="style1">安装 Visual Studio 2008 SP1 失败并显示“无法与服务器建立连接”消息。</span><br 
+class="style1"/> <span class="style1">以下是导致这种失败的可能原因：</span>
+<UL>
+<LI class="style1">访问 Internet 遭到防火墙拒绝。</LI>
+<LI class="style1">无法通过代理服务器进行连接。</LI>
+<LI class="style1">服务器未处于联机状态。</LI>
+</UL>
+        <span class="style1">最可能的原因是由目标计算机上的防火墙所致。</span>
+<P><U>解决此问题的方法：</U></P>
+        <span class="style1">向防火墙添加 SPInstaller 例外。这将使防火墙停止阻止 SpInstaller 所要求的通信。然后，再次运行 Visual Studio 2008 SP1 安装。</span><br 
+            class="style1"/><span class="style1">在 Windows XP 计算机上：</span>
+<ol>
+<li class="style1">打开“控制面板”。</li>
+<li class="style1">单击“Windows 防火墙”。</li>
+<li class="style1">单击“例外”选项卡。</li>
+<li class="style1">单击“添加程序”。</li>
+<li class="style1">将 SPInstaller 添加到程序列表中。</li>
+<li class="style1">单击“确定”。</li>
+<li class="style1">重新启动计算机。</li>
+</ol>
+    <span class="style1">在 Windows Vista 计算机上：</span>
+<ol>
+<li class="style1">打开“控制面板”。</li>
+<li class="style1">单击“Windows 防火墙”。</li>
+<li class="style1">单击“允许程序通过 Windows 防火墙”。</li>
+<li class="style1">单击“例外”选项卡。</li>
+<li class="style1">单击“添加程序”。</li>
+<li class="style1">将 SPInstaller 添加到程序列表中。</li>
+<li class="style1">单击“确定”。</li>
+<li class="style1"> 重新启动计算机。</li>
+</ol>
+
+<h4>2.1.3 在 Windows 7 RC 上安装 SQL Server 时会生成兼容性警告</h4>
+<p>在 Windows 7 RC 上尝试安装 SQL Server 2008 RTM 或 SQL Server 2005 RTM/SP1/SP2 时，您会收到警告，指出 SQL Server 与该版 Windows 具有已知的兼容性问题。 由于 SQL Server 通过 Visual Studio 进行再分发，若用户选择随 Visual Studio 一起安装 SQL Server，则安装将会受到影响。 触发该兼容性警告的问题已在 SQL Server 2008 SP1 和 SQL Server 2005 SP3 中修复。</p>
+<p><u>要解决此问题：</u></p>
+<p>安装 Visual Studio 2008 并选择安装 SQL Server 2005 Express Edition SP2（默认已选中）。</p>
+<ol class="style1">
+	<li>在安装过程中，当您收到兼容性警告时，请单击“运行程序”。</li><br><br>
+	<li>安装完成后，请从<a href="http://go.microsoft.com/fwlink/?LinkId=151892">这里</a>下载并安装 SQL Server 2005 Express Edition SP3。 （<b>注意：</b>x64 版本位于页面的底部。）</li><br><br>
+	<li>在 SQL Server 2005 Express Edition SP3 安装过程中，务必要将已安装的实例升级。</li><br><br>
+	<li>按照<a href="http://go.microsoft.com/fwlink/?LinkId=151985">这里</a>的说明，可以验证 SQL Server 2005 Express Edition 的版本。</li>
+</ol>
+<p>或者，您可以先安装 SQL Server 2005 Express Edition SP3，然后再安装 Visual Studio 2008。</p>
+<p><u>更多信息：</u></p>
+<ul class="style1">
+	<li><a href="http://go.microsoft.com/fwlink/?LinkId=151892">下载 SQL Server 2005 Express Edition SP3</a></li><br><br>
+	<li><a href="http://go.microsoft.com/fwlink/?LinkId=135960">下载 SQL Server 2005 SP3</a>（非 Express 版本）</li><br><br>
+	<li><a href="http://go.microsoft.com/fwlink/?LinkId=151639">下载 SQL Server 2008 SP1</a></li>
+</ul>
+<p>如果您必须要在 Windows 7 RC 上安装 SQL Server 2008，并且希望避免出现警告消息，则您可以自己创建 SQL Server 2008 Service Pack 1 程序包。  请遵照 Peter Saddow 介绍的操作步骤：<a href="http://go.microsoft.com/fwlink/?LinkID=151896&amp;clcid=0x409">创建包含 SQL Server 2008 RTM 和 Service Pack 1 的合并（补充）程序包（英文）</a></p>
+
+<H4>
+2.1.4  卸载修补程序可能会使其他 Visual Studio 产品中的文件降级
+</H4>
+<P>
+将 Visual Studio 2008 SP1 应用于计算机上的多种产品（例如，Visual Studio 2008 英文版和 Visual Studio 2008 西班牙语版）时，从其中一个产品卸载 SP1 会使其他 Visual Studio 2008 产品的文件降级。
+</P>
+<P><U>解决此问题的方法：</U></P>
+
+<P>修复仍安装有 Visual Studio 2008 SP1 的产品，或者同时卸载这些产品的 SP1。</P>
+
+<P>对于 Windows Vista 或更高版本：</P>
+<P>1. 打开“控制面板”。<BR>2. 单击“程序”。<BR>3. 单击“卸载程序”。<BR>4. 选择一个仍安装有 SP1 的 Visual Studio 2008 版本。<BR>5. 单击“卸载/更改”。<BR>6. 提示时单击“继续”以进行提升。<BR>7. 加载安装组件后单击“下一步”。<BR>8. 单击“修复/重新安装”。</P>
+
+<P>对于 Windows Vista 之前的操作系统：</P>
+<P>1. 打开“控制面板”。<BR>2. 单击“添加或删除程序”。<BR>3. 单击“卸载/更改”。<BR>4. 加载安装组件后单击“下一步”。<BR>5. 单击“修复/重新安装”。</P>
+
+<H4>
+2.1.5  在启用 Windows Vista 边栏时 Visual Studio 2008 SP1 安装失败。
+</H4>
+
+<P>在启用 Windows Vista 边栏时 Visual Studio 2008 SP1 安装失败。</P>
+
+<P><U>解决此问题的方法：</U></P>
+<P>
+1. 右击任务栏最右侧的通知区域中的“边栏”图标。<BR>2. 单击“退出”。
+</P>
+<H4>
+2.1.6  在安装 KB949325 或 Silverlight Tools Beta 1 时无法安装 Visual Studio 2008 SP1
+</H4>
+<P>
+如果已安装 KB949325 或 Silverlight Tools Beta 1，则将无法安装 Visual Studio 2008 SP1。如果在计算机处于此状态时尝试进行安装，则您可能会看到一条消息，指明 Visual Studio 2008 SP1 安装与以前安装的产品不兼容。
+</P>
+<P><U>解决此问题的方法：</U></P>
+
+<P>卸载 Silverlight Tools Beta 1：</P>
+<P>1. 在“控制面板”中，打开“添加或删除程序”。</P>
+<P>2. 卸载 Microsoft Silverlight Tools Beta 1 for Visual Studio 2008。</P>
+<P>&nbsp;</P>
+<P>卸载 Windows Vista 或更高操作系统版本上的 KB949325：</P>
+<P>1. 在“控制面板”中，打开“添加或删除程序”。</P>
+<P>2. 在任务栏上单击“查看已安装的更新”。</P>
+<P>3. 卸载位于 Microsoft Visual Studio 2008 之下的 KB949325。</P>
+<P>&nbsp;</P>
+<P>卸载 Windows XP 或更早操作系统版本上的 KB949325：</P>
+<P>1. 在“控制面板”中，打开“添加或删除程序”。</P>
+<P>2. 在窗口顶部单击“显示更新”。</P>
+<P>3. 卸载位于 Microsoft Visual Studio 2008 之下的 KB949325。</P>
+
+<H4>
+2.1.7  卸载 Windows SDK 会影响 Visual Studio 2008
+</H4>
+
+        <span class="style1">如果安装了 Windows SDK for Windows Vista 或 Windows SDK Update for Windows Vista，则在卸载 Windows SDK 时，Visual Studio 查找 Windows 头文件、库和工具所需的注册表项将被移除。
+
+        </span>
+
+<P class="style1"><U>解决此问题的方法：</U></P>
+
+        <span class="style1">执行以下两项操作之一：</span>
+<UL>
+<LI class="style1">使用“添加或删除程序”（在 Windows Server 2003 或 Windows XP 中）或“程序和功能”（在 Windows Vista 或 Windows Server 2008 中）修复 Visual Studio 2008。</LI>
+<LI class="style1">安装 Windows SDK for Windows Server 2008 和 .NET Framework 3.5。</LI></UL>
+
+<H4>
+2.1.8  在安装 Visual Studio 2008 SP1 的过程中将不会安装 MSDN Library for Visual Studio 2008 SP1
+</H4>
+        <span class="style1">在安装 Visual Studio 2008 SP1 的过程中，将不会在计算机上安装 MSDN Library for Visual Studio 2008 SP1。</span>
+<P class="style1"><U>解决此问题的方法：</U></P>
+        <span class="style1">可单独下载 MSDN Library for Visual Studio 2008 SP1。请访问 </span> <a href="www.microsoft.com/downloads"><span class="style1">Microsoft 下载中心</span></a><span 
+            class="style1">。</span>
+<H4>
+2.1.9  SQL Server Compact 3.5 SP1 for Devices Windows Installer (MSI) 文件不随 Visual Studio 2008 SP1 一起安装，但是可通过下载获得
+</H4>
+        <span class="style1">SQL Server Compact 3.5 SP1 for Devices Windows Installer (MSI) 文件包含在移动设备上安装 SQL Server Compact 3.5 SP1 所需的移动设备运行时文件。在 Visual Studio 2008 的已发行版本上安装 Visual Studio 2008 SP1 不会将 SQL Server Compact 3.5 for Devices MSI 更新为 SP1 版。</span>
+<P class="style1"><U>解决此问题的方法：</U></P>
+        <span class="style1">SQL Server Compact 3.5 SP1 for Devices MSI 可从 </span> <A href="http://go.microsoft.com/fwlink/?LinkId=122230"> <span class="style1">Microsoft 下载中心</span></A>下载获得。
+<H4>
+2.1.10  在 Windows Vista 上安装 Visual Studio 2008 SP1 的过程中显示 Windows 自动更新通知
+</H4>
+<P>
+在未安装 .NET Framework 2.0 SP2 和 .NET Framework 3.0 SP2 的 Windows Vista 计算机上安装 Visual Studio 2008 SP1 时，可能会显示要求重新启动计算机的 Windows 自动更新通知。若允许立即重新启动 Windows Update，则将导致 Visual Studio 安装程序失败。
+</P>
+<P><U>解决此问题的方法：</U></P>
+<P>
+请将重新启动推迟到 Visual Studio SP1 安装完成后再执行。
+</P>
+
+<H4>
+2.1.11  当 .NET Framework 2.0 SP2 无法升级 .NET Framework 2.0 或 .NET Framework 2.0 SP1 时，Visual Studio 2008 SP1 安装失败
+</H4>
+
+<P>.<span class="style4">在已安装 .NET Framework 2.0 或 .NET Framework 2.0 SP1 并运行 Windows XP、Windows Server 2003 或 Windows 2000 的计算机上无法安装 NET Framework 2.0 SP2。</span></P>
+<P class="style4">.NET Framework 2.0 SP2 安装程序将卸载早期版本的 .NET Framework 2.0 和 .NET Framework 2.0 SP1。当 Windows Installer 卸载早期版本时，它将使用缓存的安装数据库。执行卸载操作的过程中，如果 Windows Installer 在其缓存中或原始源位置找不到早期更新的安装包，则安装将失败。如果发生不完整的回滚，此安装失败还可能导致使用 .NET Framework 的应用程序失败。<BR></P>
+<P class="style4">此问题可能是由以下某一原因导致的：</P>
+<P class="style3">Windows Installer 缓存缺少必需的文件。</P>
+<span class="style4">Windows Installer 缓存已更改。此缓存对于修复、更新和卸载产品至关重要。因此，请不要移除或修改此缓存的内容。如果更改此缓存的内容，则当您尝试更新或修复基于 Windows Installer 的产品时，系统可能会提示您提供源。</span> <br class="style4"/> <br class="style4" /> <span class="style4">有时，Windows Installer 应能够在缓存中找到的 Windows Installer 修补程序 (.msp) 文件可能不存在。有以下两个可能导致丢失 .msp 文件的常见原因：</span> <br class="style4"/> <span class="style4">- 已运行用于在硬盘上查找和删除大型文件或很少使用的文件的工具。</span> <br class="style4" /> <span class="style4">- %windir%\Installer 目录的所有者已由 SYSTEM 或 Administrators 更改为其他用户。</span> <br class="style4" /> <br class="style4"/> <span class="style4">如果出现此问题，Windows Installer 的安装失败日志将显示与以下内容类似的信息：</span> <br class="style4" /> <span class="style4">MSI (s) (D0:B0) [19:05:57:843]：找不到本地路径“C:\WINDOWS\Installer\a4784a.msp”。在相应的源中查找它。</span> <br class="style4" /><span class="style4">MSI (s) (D0:B0) [19:05:57:843]：解析修补程序源。</span> <br class="style4" /><span class="style4">在发生此问题时，可以使用 Microsoft .NET Framework 注册更正工具解决它。此工具修复此问题的方式是：删除特定于此更新的所有修补程序或更新注册，从而使维护安装不会尝试加载特定的 .msp 文件。</span> <br class="style4"/><br class="style4" /> <span class="style4">也可以通过重新构建安装程序缓存来修复此问题。通常可以在“解析修补程序源”后跟的行中查找修补程序或更新对应的知识库文章编号，如以下示例所示：</span> <br class="style4"/><span class="style4">MSI (s) (D0:B0) [19:05:57:859]: SOURCEMGMT：由于程序包丢失/不可访问，导致源无效。</span> <br class="style4"/><span class="style4">MSI (s) (D0:B0) [19:05:57:859]: 注意：1: 1706 2: -2147483647 3: NDP20-KB917283-X86.msp </span> <br class="style4"/><br class="style4" /> <span class="style4">若要修复此示例中的 Windows Installer 缓存，请按照下列步骤操作：</span> <br class="style4" /><span class="style4">1. 访问以下 Microsoft 网站：http://support.microsoft.com/kb/917283 (http://support.microsoft.com/kb/917283)。注意：可以将 URL 中的知识库文章编号替换为要用于修复 Windows Installer 缓存的修补程序或更新的知识库文章编号。</span> <br class="style4" /><span class="style4">2. 下载更新。</span> <br class="style4" /><span class="style4">3. 使用 /x 命令行开关或 /extract 命令行开关提取修补程序或更新中的 .msp 文件。</span> <br class="style4" /><span class="style4">4. 将提取到的 .msp 文件复制到缺失文件的位置。在此示例中，该位置为 %windir%\Installer\a4784a.msp。</span> <br class="style4"/><br class="style4" /> <span class="style4">修补程序注册或更新注册可能已损坏。</span><br 
+    class="style4"/><br class="style4" /><span class="style4">在基于 Windows Installer 的产品上安装修补程序或更新后，修补程序注册或更新注册可能被损坏。用于移除某些注册表项的第三方注册表清理器实用工具可能会导致出现此问题。这些注册表项包括旨在供 Windows Installer 内部使用的注册表项。在此情况下，日志中的“解析修补程序源”消息的内容如下：</span> <br class="style4"/><span class="style4">MSI (s) (CC:5C) [03:02:56:181]：找不到本地路径。在相应的源中查找它。</span> <br class="style4"/><span class="style4">MSI (s) (CC:5C) [03:02:56:181]：解析修补程序源。</span> <br class="style4"/><span class="style4">注意：由于缺少修补程序或更新的注册信息，导致日志消息中缺失修补程序或更新的位置。在此情况下，仍将向产品注册修补程序或更新。但修补程序或更新的位置信息将缺失。尽管 Windows Installer 要求加载的文件可能存在，但 Windows Installer 不知道该文件的路径。</span> <br class="style4"/><br class="style4"/> <span class="style4">在发生此问题时，可以使用 Microsoft .NET Framework 注册更正工具解决它。此工具修复此问题的方式是：删除特定于此 Service Pack 的所有修补程序或更新注册，从而使维护安装不会尝试加载修补程序或更新程序包。</span> <br class="style4"/>
+<p class="style4"><u>解决此问题的方法：</u></p>
+
+<span class="style4">如果无法成功安装 .NET Framework 2.0 SP2，并且在安装日志文件中找到“原因”一节中所述的“解析修补程序源”文本，则可以下载 Microsoft .NET Framework 注册更正工具来解决此问题。</span> <br class="style4"/> <br class="style4"/><span class="style4">Microsoft .NET Framework 2.0 注册更正工具</span> <br class="style4"/><span class="style4">Microsoft .NET Framework 注册更正工具可解决“原因”一节中所述的两个问题。
+
+</span>
+
+<br class="style4"/><span class="style4">可从 Microsoft 下载中心下载以下文件：</span><br 
+    class="style4"/> <br class="style4"/><span class="style4">立即下载 Microsoft .NET Framework 2.0 注册更正工具程序包。</span> <a href="http://www.microsoft.com/downloads/details.aspx?displaylang=zh-cn&FamilyID=0ba6038c-061e-4b4a-9be9-96a323701260"> <span class="style4">http://www.microsoft.com/downloads/details.aspx?displaylang=zh-cn&FamilyID=0ba6038c-061e-4b4a-9be9-96a323701260</span></a>
+
+<br class="style4"/><br class="style4"/><span class="style4">Microsoft 下载中心针对 .NET Framework 2.0 支持的每类处理器体系结构（x86、x64 和 IA-64）提供了此工具的一个版本。大多数客户运行的是 32 位版本的操作系统。因此，这些客户应下载和安装此工具的 x86 版本。
+
+</span>
+
+<br class="style4"/><span class="style4">管理员还可以通过传递 /q 命令行开关或 /quiet 命令行开关，在脚本中使用此实用工具。这样，您就能够以静默模式运行应用程序，而无需使用用户界面和脚本块。
+
+</span>
+
+<br class="style4"/><span class="style4">此工具将在 %TEMP%\dd_clwireg.txt 文件夹下写入一个运行日志。可以查看该日志以了解有关此工具所做工作的详细信息。</span> <br class="style4"/> <br class="style4"/><span class="style2"><span class="style1">注意 </span> <br class="style1" /> <span class="style1">-  Microsoft .NET Framework 注册更正工具适用于任何当前版本的 .NET Framework。</span><br 
+        class="style1" /><span class="style1">- 您必须是管理员才能运行此实用工具。</span></span>
+        <H4>
+2.1.12 FIX：安装非英语版本的 Microsoft Visual Studio 2008 Service Pack 1 后，某些本地化的“智能感知”文本可能会还原为英语
+</H4>
+<P>安装非英语版本的 Microsoft Visual Studio 2008 Service Pack 1 (SP1) 	后，某些本地化的“智能感知”文本可能会还原为英语。此问题出现在下列语言版本的 Visual Studio 2008 SP1 中： </P>
+	<ul>
+		<li>简体中文 </li>
+		<li>繁体中文 </li>
+		<li>德语 </li>
+		<li>西班牙语 </li>
+		<li>法语 </li>
+		<li>意大利语 </li>
+		<li>日语 </li>
+		<li>朝鲜语 </li>
+	</ul>
+	<p>若要解决此问题，请参考 <a href="http://support.microsoft.com/kb/957507/zh-cn">KB 957507</a> 了解详细信息，然后下载文件。</p>
+        <H3>
+2.2 <A name="Uninstalling">卸载</A>
+</H3>
+        <span class="style1">没有已知问题。</span>
+<H3>
+2.3 <A name="Product Issues">产品问题</A>
+</H3>
+<H4>
+2.3.1 <A name="General Issues">一般问题</A>
+</H4>
+
+<H4>
+2.3.1.1  为 .NET Framework 3.5 SP1 引导程序包启用 Samesite
+</H4>
+
+<P>如果在安装项目的“系统必备”对话框中或在“ClickOnce 发布”中选中 .NET Framework 3.5 SP1 引导程序包，并且选中“从与我的应用程序相同的网站上下载组件”选项，则将显示下面的生成错误：&nbsp;</P>
+<P>系统必备的安装位置未设置为“组件供应商的网站”，无法在磁盘上找到项“Microsoft.Net.Framework.3.5.SP1”中的文件“dotNetFx35setup.exe”。</P>
+
+<P><U>解决此问题的方法：</U></P>
+        <span class="style5">更新包数据</span>
+<ol>
+   <li class="style1"> 打开 [Program Files]\Microsoft SDKs\Windows\v6.0A\Bootstrapper\Packages\DotNetFx35SP1 文件夹。</li>
+   <li class="style1"> 在“记事本”中编辑 Product.xml 文件。</li>
+   <li> <span class="style1">将下面的内容粘贴到 &lt PackageFiles &gt 元素中：</span> <br class="style1"/> <span class="style1">&lt;PackageFile Name="TOOLS\clwireg.exe"/&gt;</span><br/> <span class="style1">&lt;PackageFile Name="TOOLS\clwireg_x64.exe"/&gt;</span><br/> <span class="style1">&lt;PackageFile Name="TOOLS\clwireg_ia64.exe"/&gt;</span><br/>
+       </li>
+&#160;</span></ol>
+
+        <span class="style5">下载并提取核心安装文件</span>
+ <ol>
+ <li class="style1"> 导航到以下 URL：http://go.microsoft.com/fwlink?LinkID=118080</li>
+  <li class="style1">将 dotNetFx35.exe 文件下载到本地磁盘上。</li>
+  <li class="style1">打开“命令提示符”窗口，然后更改到下载 dotNetFx35.exe 的目录。</li>
+  <li> <span class="style1">在命令提示符下键入：</span> <br class="style1"/> <span class="style1">dotNetFx35.exe /x:。</span> <br class="style1"/> <span class="style1">这可将 Framework 文件提取至当前目录下的一个名为 &#8220;WCU&#8221; 的文件夹中。</span>  </li>
+  <li><span class="style1">复制 WCU\dotNetFramework 文件夹的内容并将其粘贴到 %Program Files%\Microsoft SDKs\Windows\v6.0A\Bootstrapper\Packages\DotNetFx35SP1 文件夹中（在 x64 操作系统上为 %ProgramFiles(x86)%\Microsoft SDKs\Windows\v6.0A\Bootstrapper\Packages\DotNetFx35SP1）。注意：请不要复制 WCU\dotNetFramework 文件夹自身。WCU 文件夹下应包括 5 个文件夹，现在每个文件夹应显示在 DotNetFx35SP1 文件夹中。文件夹结构应类似下面这样：</span><br 
+          class="style1"/> <span class="style1">o   DotNetFx35SP1（文件夹） </span>
+<ul>
+ <li class="style1">dotNetFX20（文件夹）</li>
+<li class="style1">dotNetFX30（文件夹）</li>
+<li class="style1"> dotNetFX35（文件夹）</li>
+<li class="style1"> dotNetMSP（文件夹）</li>
+<li class="style1">TOOLS（文件夹）</li>
+<li class="style1"> en（一些其他本地化文件夹）</li>
+<li> <span class="style1">dotNetFx35setup.exe（文件）</li></span> <span class="style1"> </il> </span> <br class="style1"/><span class="style1">现在可以删除在步骤 2 和步骤 4 中下载和提取的文件和文件夹。</li>
+&#160;</span></ol>
+        <span class="style5">下载语言包支持文件</span>
+ <ol>
+<li class="style1">有关下载位置，请参考下表。</li>
+<li><span class="style1">导航至所提供的 URL，出现提示后，下载到表中所指示的 dotNetFx35SP1 文件夹的子目录中。注意：必须对 x86 和 x64 文件各执行一次该操作，即使您的包无需支持 x64 也是如此。</li></span> <br class="style1" /><br class="style1" /> <span class="style1">简体中文、x86（源 URL："http://go.microsoft.com/fwlink?LinkID=118146" ，目标：zh-CHS\DotNetFX35\x86）</span> <br class="style1"/><br class="style1"/> <span class="style1">简体中文、x64（源 URL："http://go.microsoft.com/fwlink?LinkID=118151" ，目标：zh-CHS\DotNetFX35\x64）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">繁体中文、x86（源 URL："http://go.microsoft.com/fwlink?LinkID=118087" ，目标：zh-CHT\DotNetFX35\x86）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">繁体中文、x64（源 URL："http://go.microsoft.com/fwlink?LinkID=118050" ，目标：zh-CHT\DotNetFX35\x64）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">英语：N/A </span> <br class="style1"/> <br class="style1"/> <span class="style1">法语、x86（源 URL："http://go.microsoft.com/fwlink?LinkID=118148" ，目标：fr\DotNetFX35\x86）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">法语、x64（源 URL："http://go.microsoft.com/fwlink?LinkID=118153" ，目标：fr\DotNetFX35\x64）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">德语、x86（源 URL："http://go.microsoft.com/fwlink?LinkID=118149" ，目标：de\DotNetFX35\x86）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">德语、x64（源 URL："http://go.microsoft.com/fwlink?LinkID=118154" ，目标：de\DotNetFX35\x64）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">意大利语、x86（源 URL："http://go.microsoft.com/fwlink?LinkID=118097" ，目标：it\DotNetFX35\x86）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">意大利语、x64（源 URL："http://go.microsoft.com/fwlink?LinkID=118115" ，目标：it\DotNetFX35\x64）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">日语、x86（源 URL："http://go.microsoft.com/fwlink?LinkID=118096" ，目标：ja\DotNetFX35\x86）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">日语、x64（源 URL："http://go.microsoft.com/fwlink?LinkID=118114" ，目标：ja\DotNetFX35\x64）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">朝鲜语、x86（源 URL："http://go.microsoft.com/fwlink?LinkID=118147" ，目标：ko\DotNetFX35\x86）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">朝鲜语、x64（源 URL："http://go.microsoft.com/fwlink?LinkID=118152" ，目标：ko\DotNetFX35\x64）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">葡萄牙语 &#8211; 巴西、x86（源 URL："http://go.microsoft.com/fwlink?LinkID=118092" ，目标：pt-BR\DotNetFX35\x86）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">葡萄牙语 &#8211; 巴西、x64（源 URL："http://go.microsoft.com/fwlink?LinkID=118110" ，目标：pt-BR\DotNetFX35\x64）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">俄语、x86（源 URL："http://go.microsoft.com/fwlink?LinkID=118090" ，目标：ru\DotNetFX35\x86）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">俄语、x64（源 URL："http://go.microsoft.com/fwlink?LinkID=118108" ，目标：ru\DotNetFX35\x64）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">西班牙语、x86（源 URL："http://go.microsoft.com/fwlink?LinkID=118101" ，目标：es\DotNetFX35\x86）</span><br 
+        class="style1"/><br class="style1"/> <span class="style1">西班牙语、x64（源 URL："http://go.microsoft.com/fwlink?LinkID=118119" ，目标：es\DotNetFX35\x64）</span><br/><br/>
+</ol>
+
+<H4>
+2.3.1.2  安装 Visual Studio 2008 RTM 和 Visual Studio 2008 SP1 RTM 后，redist mfc90rus.dll 未得到更新
+</H4>
+
+<P>- 安装 Visual Studio 2008 SP1 RTM 修补程序后 redist 文件夹中不存在 mfc90rus.dll。</P>
+<P>- 用户将无法使用俄语资源来编写并分发本地化的应用程序。</P>
+
+<P><U>解决此问题的方法：</U></P>
+<P>
+用户可以将 MFC90RUS.DLL 从 winsxs 文件夹复制到 redist 文件夹。
+</P>
+<H4>
+2.3.1.3  在某些情况下，安装 Visual Studio 2008 SP1 的过程中可能会发生对原始安装媒体的请求
+</H4>
+
+<P>如果在安装 Visual Studio 2008 的过程尚未选中以下功能，则在 Visual Studio 2008 SP1 的安装过程中可能会请求原始安装媒体：</P>
+<P>在“Visual C++ 类和模板库”之下</P>
+<P>- ATL MFC 源代码</P>
+<P>- ATL MFC 静态库 ANSI</P>
+<P>- ATL MFC 静态库 Unicode</P>
+<P>- ATL MFC 共享库 ANSI</P>
+<P>- ATL MFC 共享库 Unicode</P>
+<P>在“Visual C++ 工具”下</P>
+<P>- MFC 跟踪实用工具</P>
+<P>- Visual C++ 错误查找</P>
+<P>- Win32 工具<BR></P>
+
+<P><U>解决此问题的方法：</U></P>
+
+<P>提供原始媒体。</P>
+
+<H4>
+2.3.1.4  即使已将对 System.Data.Entity 的引用添加到项目中，目标 .NET Framework 版本也不是 .NET Framework 3.5 SP1。
+</H4>
+
+<P>只要在开发过程中选择相应的选项以面向 .NET Framework Client Profile，ClickOnce 就不会自动检查 SP1，即使添加对 System.Data.Entity（需要 SP1）的引用也是如此。</P>
+<P>如果在包含对 System.Data.Entity 的引用的项目中清除“仅限客户端的框架子集”选项，则应用程序将错误地检查不具有 SP1 的 .NET Framework 3.5。</P>
+
+<P><U>解决此问题的方法：</U></P>
+<P>
+<P>强制使 ClickOnce 检查 .NET Framework 3.5 SP1：</P>
+<P>对于 Visual Basic 项目：</P>
+<P>打开项目属性（在解决方案资源管理器中双击“我的项目”）。<BR>单击“编译”选项卡。<BR>单击“高级编译选项”。<BR>清除“仅限客户端的框架子集”选项。<BR>从项目中移除对 System.Data.Entity 的引用。<BR>再次向项目中添加对 System.Data.Entity 的引用。<BR>&nbsp;</P>
+<P>对于 C# 项目：</P>
+<P>打开项目属性（在解决方案资源管理器中双击“属性”）。<BR>单击“应用程序”选项卡。<BR>清除“仅限客户端的框架子集”选项。<BR>从项目中删除对 System.Data.Entity 的引用。<BR>再次向项目中添加对 System.Data.Entity 的引用。</P>
+</P>
+<H4>
+2.3.1.5  即便已安装 .NET Framework Client Profile，ClickOnce 生成的 publish.htm 页面仍尝试安装它。
+</H4>
+<P>
+<P>publish.htm 页面是在未使用检测目标计算机上是否存在 .NET Framework Client Profile 的脚本的情况下生成的。</P>
+</P>
+<P><U>解决此问题的方法：</U></P>
+<P>
+<P>1. 确保应用程序面向仅限客户端的框架子集。</P>
+<P>对于 Visual Basic 项目：</P>
+<P>打开项目属性（在解决方案资源管理器中双击“我的项目”）。<BR>单击“编译”选项卡。<BR>单击“高级编译选项”。<BR>选择“仅限客户端的框架子集”选项。<BR>&nbsp;</P>
+<P>对于 C# 项目：</P>
+<P>打开项目属性（在解决方案资源管理器中双击“属性”）。<BR>单击“应用程序”选项卡。<BR>选择“仅限客户端的框架子集”选项。<BR>&nbsp;</P>
+<P>2. 若要获取正确的脚本，请选择 .NET Framework 3.5 SP1 系统必备组件并发布应用程序。</P>
+<P>3. 在项目的“发布”属性中，将系统必备包改回为 .NET Framework Client Profile 并清除“每次发布后都自动生成部署网页”选项。</P>
+<P>4. 再次发布应用程序。<BR></P>
+</P>
+<H4>
+2.3.1.6  ADO.NET 实体数据模型设计器中未显示关联连接器或显示在错误的位置
+</H4>
+<P>
+<P>在两种情况下会出现此问题：</P>
+<P>1. 运行数据库中的更新模型后，为数据库中的新外键创建了关联但并未显示在关系图中。</P>
+<P>2. 在设计器中执行撤消/重做操作之后，关联连线放置在关系图中的错误位置。</P>
+</P>
+<P><U>解决此问题的方法：</U></P>
+<P>
+<P>以下是几种解决方法：</P>
+<P>- 保存该文件。关闭设计器。再次打开该文件。</P>
+<P>- 右击关系图的空白区域，然后单击“布局关系图”。这样可能会改变以前对关系图所做的任何手动布局更改。</P>
+<P>- 手动移动相关的实体以刷新其呈现效果。</P>
+</P>
+<H4>
+2.3.1.7  指向 Microsoft Visual Studio 2008 SP1 ReportViewer 的默认重定向链接不正确
+</H4>
+<P>
+<P>安装和部署项目中提供的指向 Visual Studio 2008 ReportViewer (ReportViewer.exe) 的默认重定向链接错误地重定向到非英语操作系统上的 ReportViewer (ReportViewerLP.exe) 的语言包。<BR></P>
+</P>
+<P><U>解决此问题的方法：</U></P>
+<P>
+<P>1. 打开 %Program Files%\Microsoft SDKs\Windows\v6.0A\Bootstrapper\Packages\ReportViewer\&lt;locale&gt;\package.xml</P>
+<P>2. 在 package.xml 中，用 <A href="http://go.microsoft.com/fwlink/?LinkID=98185&amp;clcid=0x409">http://go.microsoft.com/fwlink/?LinkID=98185&amp;clcid=0x409</A> 替换链接 <A href="http://go.microsoft.com/fwlink/?LinkID=98185">http://go.microsoft.com/fwlink/?LinkID=98185</A>。</P>
+<P>3. 确保未更改指向 ReportViewerLP.exe 的链接 <A href="http://go.microsoft.com/fwlink/?LinkID=98185&amp;clcid=<CLID">http://go.microsoft.com/fwlink/?LinkID=98185&amp;clcid=&lt;CLID</A>&gt;。</P>
+</P>
+<H4>
+2.3.1.8  无法使用 Visual Studio Team Server 2008 SP1 安装运行负载测试
+</H4>
+<P>
+<P>在安装 Visual Studio Team Server 2008 SP1 客户端并使用其运行负载测试时，必须使用 Visual Studio Team Server 2008 SP1 控制器才能运行测试。连接到该控制器的所有联机代理还必须是 Visual Studio Team Server 2008 SP1 代理。如果仅在 Visual Studio 客户端上安装 SP1 并且使用未安装 Visual Studio Team Server 2008 SP1 版本的测试远程测试机组运行负载测试，则负载测试将立即失败，并且“测试结果”窗口中将显示“没有执行”。如果单击“测试结果”窗口中的“测试运行错误”链接，则将显示如下所示的错误：</P>
+<P>未能对测试运行 <A href="mailto:'username@MYCONTROLLER">'username@MYCONTROLLER</A> 2008-06-13 11:17:28' 进行排队：类型‘Microsoft.VisualStudio.TestTools.LoadTesting.LoadTestConstantLoadProfile’的对象无法转换为类型‘Microsoft.VisualStudio.TestTools.WebStress.WebTestLoadProfile’。&nbsp;</P>
+<P>（列出的第一个类型取决于负载测试所使用的负载模式的类型。）</P>
+<P>Visual Studio 客户端、控制器和代理的版本必须匹配，因为 Visual Studio Team Server 2008 SP1 增强了 API 以实现不同的负载测试模式。</P>
+</P>
+<P><U>解决此问题的方法：</U></P>
+<P>
+<P>将客户端、控制器和代理升级到 Visual Studio 2008 SP1。</P>
+</P>
+<H4>
+2.3.1.9  安装部署包在通过 Web 安装某些系统必备组件时会失败
+</H4>
+<P>
+<P>由安装项目创建的部署包中的某些系统必备组件的安装在最终用户指定通过网络安装时会失败。与那些组件相关的 ClickOnce 部署包在安装时也会失败。<BR>
+该问题是由于某些组件中的错误的 URL 引起的。要修复该问题必须手动编辑 package.xml 中的 URL。<BR></P>
+</P>
+<P><U>解决此问题的方法：</U></P>
+<P>
+<P>1. 打开 %Program Files%\Microsoft SDKs\Windows\6.0A\Bootstrapper\Packages\</P>
+<P>2. 在下述三个文件夹中编辑  package.xml 文件<BR>
+a.\VSTOR30\&lt;LANG&gt;\<BR>
+b.\SqlExpress\&lt;LANG&gt;\<BR>
+c.\VBPowerPacks\&lt;LANG&gt;\<BR>
+并将<BR>
+a.<String Name="VSTORLangPackExe">http://go.microsoft.com/fwlink/?LinkId=95147amp;clcid=0xXXX </String> 改为 <String Name="VSTORLangPackExe">http://go.microsoft.com/fwlink/?LinkId=95147&amp;clcid=0xXXX </String><BR>
+b.<String Name="SqlExprExe">http://go.microsoft.com/fwlink/?LinkId=83136amp;clcid=0xXXX </String> 改为 <String Name="SqlExprExe">http://go.microsoft.com/fwlink/?LinkId=83136&amp;clcid=0xXXX </String><BR>
+c.<String Name="VisualBasicPowerPacksSetupExe">http://go.microsoft.com/fwlink/?LinkId=91591 </String> 改为 <String Name="VisualBasicPowerPacksSetupExe">http://go.microsoft.com/fwlink/?LinkId=91591&amp;clcid=0xXXX </String><BR>
+<BR>
+请注意：需要在“amp;clcid=0xXXX”前加上“&”字符。“0xXXX” 指相关语言标示符。简体中文为“0x804”。<BR></P>
+</P>
+<H4>
+2.3.2 <A name="ADO.Net">ADO.Net</A>
+</H4>
+    <span class="style1">没有已知问题。</span>
+<H4>
+2.3.3 <A name="Languages">语言</A>
+</H4>
+    <span class="style1">没有已知问题。</span>
+<H4>
+2.3.4 <A name="LINQ">LINQ</A>
+</H4>
+            <span class="style1">没有已知问题。</span>
+<H4>
+2.3.5 <A name="Visual Studio Tools for Office">Visual Studio Tools for Office</A>
+</H4>
+
+<H4>
+2.3.5.1  使用 Visual Studio 2008 SP1 创建的 Office 2007 解决方案需要 Visual Studio Tools for the Office system 3.0 Runtime SP1。
+</H4>
+<P>
+<P>如果通过打开部署清单（.vsto 文件）、Office 应用程序、文档或工作簿安装解决方案，则可能会收到错误消息。这是因为解决方案安装程序不会执行系统必备检查。<BR></P>
+</P>
+<P><U>解决此问题的方法：</U></P>
+<P>
+<P>解决此问题的方法有两种：<BR>- 安装 Visual Studio Tools for the Office system 3.0 Runtime SP1 的 SP1 修补程序。<BR>- 通过运行安装程序安装解决方案。<BR>安装程序检查正确版本的系统必备组件并根据需要安装它们。</P>
+</P>
+<H4>
+2.3.5.2  Office 2003 解决方案无法将 .Net Framework Client Profile 用作目标框架。
+</H4>
+<P>
+通过项目的属性页可以选择 .NET Framework Client Profile 作为目标框架（即使项目不支持该目标框架）。
+</P>
+<P><U>解决此问题的方法：</U></P>
+
+<P>如果项目将 Office 2003 用作目标版本，请不要在项目的属性页中选择“仅限客户端的框架子集”。<BR></P>
+
+<H4>
+2.3.5.3  针对 .NET Framework Client Profile 开发 Office 解决方案时出现警告消息
+</H4>
+
+<P>当针对 .NET Framework Client Profile 运行库开发 Office 解决方案时，可看到这些生成警告消息：“项目具有对程序集 &lt;名称&gt; 的引用。此程序集不是 .NET Framework Client Profile 的一部分。&nbsp;若不具有此引用，则可能会出现编译或运行时错误。”或者“所引用的程序集 &lt;名称&gt; 在 &lt;程序集&gt; 上具有一个依赖项，该依赖项未作为 .NET Framework Client Profile 的一部分列出。如果此依赖引用是必需的，则可能会收到编译错误。”</P>
+
+<P>如果忽略这些警告，则可能会因为缺少程序集而收到下面的异常：“未处理的异常: System.IO.FileNotFoundException: 无法加载文件或程序集 &lt;程序集&gt; 或其一个依赖项。系统找不到指定的文件”。</P>
+
+<P><U>解决此问题的方法：</U></P>
+
+<P>如果应用程序使用依赖于 .NET Framework Client Profile 中未包含的程序集的功能，则请确保项目将完整的 .NET Framework 3.5 用作目标框架。</P>
+<P class="style1">对于 Visual Basic 项目：</P>
+<OL>
+<LI class="style1">打开项目属性（在解决方案资源管理器中双击“我的项目”）。</LI>
+<LI class="style1">单击“编译”选项卡。</LI>
+<LI class="style1">单击“高级编译选项”。</LI>
+<LI class="style1">清除“仅限客户端的框架子集”选项。</LI>
+<LI class="style1">确保 .NET Framework 3.5 显示为目标框架。</LI></OL>
+<P class="style1">对于 C# 项目：</P>
+<OL>
+<LI class="style1">打开项目属性（在解决方案资源管理器中双击“属性”）。</LI>
+<LI class="style1">单击“应用程序”选项卡。</LI>
+<LI class="style1">清除“仅限客户端的框架子集”选项。</LI>
+<LI class="style1">确保 .NET Framework 3.5 显示为目标框架。</LI></OL>
+
+<H4>
+2.3.5.4  当发布解决方案时，出现下面的警告消息：“没有为 Microsoft Office 2007 主互操作程序集提供‘HomeSite’属性”
+</H4>
+
+
+<P>默认情况下，将解决方案引导程序配置为从 Web 下载主互操作程序集包。但是，无法下载此包；必须将其安装在与应用程序相同的位置。&nbsp;</SPAN></P>
+
+<P><U>解决此问题的方法：</U></P>
+
+<P>您可以忽略此警告。</P>
+<P>即使在“系统必备”对话框中选中“从组件供应商的网站上下载系统必备组件”，主互操作程序集包也将自动发布到与应用程序相同的位置。</P>
+
+
+<H4>
+2.3.5.5  安装 Visual Studio 2008 SP1 后，发布以前创建的 Office 项目时显示警告。
+</H4>
+
+
+<P>当发布解决方案时，显示下面的警告：“‘Visual Studio Tools for Office system 3.0 Runtime Service Pack 1’需要项‘.NET Framework Client Profile’，但未包括它。”</P>
+<P>出现此警告的原因是将 Visual Studio Tools for Office system 3.0 Runtime Service Pack 1 选择为安装系统必备组件。但是，.NET Framework 3.5 Service Pack 1 和 .NET Framework Client Profile 包均未选中。</P></SPAN>
+
+<P><U>解决此问题的方法：</U></P>
+<ol>
+<LI><span class="style1">打开项目属性：</span>
+<ul>
+<li class="style1">对于 C# 项目，在解决方案资源管理器中双击“属性”。
+<li class="style1">对于 Visual Basic 项目，在解决方案资源管理器中双击“我的项目”。
+</ul>
+</LI>
+<LI class="style1">单击“发布”选项卡。</LI>
+<LI class="style1">单击“系统必备”以打开“系统必备”对话框。</LI>
+<LI class="style1">选择“.NET Framework 3.5 Service Pack 1”或“.NET Framework Client Profile”。</LI>
+<LI class="style1">再次发布解决方案。</LI>
+</ol>
+
+<H4>
+2.3.5.6  使用 ServerDocument 类的应用程序不能面向 .NET Framework Client Profile。
+</H4>
+<P>
+<P class=MsoNormal style="MARGIN: 0in 3pt 10pt 0in">如果项目面向 .NET Framework Client Profile，则在运行应用程序时，应用程序将引发 FileNotFound 异常。发生这种情况是因为 ServerDocument 类要求完整的 .NET Framework 3.5。&nbsp;</P>
+</P>
+<P><U>解决此问题的方法：</U></P>
+
+    <span class="style5">对于 Visual Basic 项目：</span>
+<ol>
+<li class="style1">打开项目属性（在解决方案资源管理器中双击“我的项目”）。</li>
+<li class="style1">单击“编译”选项卡。单击“高级编译选项”。</li>
+<li class="style1">清除“仅限客户端的框架子集”选项。</li>
+<li class="style1">确保 .NET Framework 3.5 显示为目标框架。</li>
+</ol>
+    <span class="style5">对于 C# 项目：</span>
+<ol>
+<li class="style1">打开项目属性（在解决方案资源管理器中双击“属性”）。</li>
+<li class="style1">单击“应用程序”选项卡。</li>
+<li class="style1">清除“仅限客户端的框架子集”选项。</li>
+<li class="style1">确保 .NET Framework 3.5 显示为目标框架。</li>
+</ol>
+
+<H4>
+2.3.6 <A name="Web Development">Web 开发</A>
+</H4>
+<H4>
+2.3.6.1  Visual Studio 2008 SP1 需要 Silverlight Tools Beta 2 的已更新安装
+</H4>
+<P>
+<P>如果 Silverlight Tools Beta 2 是以前安装的，则在安装 Visual Studio 2008 SP1 后，Visual Studio 将无法打开 Silverlight 项目，直到更新了 Silverlight Tools Beta 2 安装。</P>
+</P>
+<P><U>解决此问题的方法：</U></P>
+<P>
+<P>从 <A href="http://go.microsoft.com/fwlink/?LinkID=120032">http://go.microsoft.com/fwlink/?LinkID=120032</A> 下载针对 Visual Studio 2008 SP1 的已更新 Silverlight Tools Beta 2。</P>
+</P>
+<H4>
+2.3.7 <A name="Windows Communication Foundation (WCF) Tools">Windows Communication Foundation (WCF) 工具</A>
+</H4>
+<SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: Arial">
+<H4>
+2.3.7.1  当在“属性”页上将相对路径设置为“输出路径”时，WCF 服务主机无法承载 WCF 服务库项目
+</H4>
+<P>
+<P>创建 WCF 服务库项目时，可以在项目“属性”页的“生成”选项卡上将输出路径从默认的 bin\debug\ 更改为相对路径，例如“.”或“..”。然后，在尝试调试服务时，WCF 服务主机无法承载该服务，并且将显示此消息：“无法直接启动带有“类库输出类型”的项目。”<BR></P>
+</P>
+<P><U>解决此问题的方法：</U></P>
+<P>
+<P>在“生成”选项卡上，输入完全限定路径而不是相对路径。</P>
+</P>
+<H4>
+2.3.7.2  在具有 TFS 插件的 Visual Studio 中，当在 WCF 服务库项目中选择“添加新项”时出现错误消息
+</H4>
+<P>
+<P>如果在具有 TFS 插件的 Visual Studio 中创建新的 WCF 服务库项目，则在此项目中选择“添加新项”时可能会看到显示一个错误。单击“确定”关闭该错误对话框后，该项服务将成功添加并按预期方式工作。<BR></P>
+</P>
+<P><U>解决此问题的方法：</U></P>
+<P>
+<P>单击“确定”以关闭错误对话框。<BR></P>
+</P>
+<H4>
+2.3.8 <A name="Windows Presentation Foundation (WPF) Designer for Visual Studio"> Visual Studio Windows Presentation Foundation (WPF) 设计器</A>
+</H4>
+<SPAN style="FONT-SIZE: 10pt; LINE-HEIGHT: 115%; FONT-FAMILY: 'Segoe UI','sans-serif'"> <SPAN style="mso-spacerun: yes">
+<H4>
+2.3.8.1  “属性”窗口使用美国格式显示日期和数字等值。
+</H4>
+<P>
+<P class=style1 
+                style="MARGIN: 0in 0in 10pt; LINE-HEIGHT: normal; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto">WPF 设计器中的“属性”窗口使用美国格式显示和编辑值。这与使用 en-US CultureInfo 的 XAML 约定匹配。例如，日期和数字始终采用美国格式。日期始终显示为 mm/dd/yy 格式。如果在“属性”窗口中输入一个日期值，则该值将转换为 mm/dd/yy 格式。</P>
+</P>
+<P class="style1"><U>解决此问题的方法：</U></P>
+<P>
+<P class=style1 
+                style="MARGIN: 0in 0in 10pt; LINE-HEIGHT: normal; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto">尚未提供解决方法。</P>
+</P>
+<H4>
+2.3.8.2  当 XAML 文件中的符号为重构的代码时的限制
+</H4>
+<P>
+<P class="style1">在 Visual Studio 2008 SP1 中，如果使用代码重构修改类型或成员，则重构操作将传播到 XAML 文件。有关此功能的更多信息，请参见文档中的“如何：重命名在 XAML 中声明的符号”。下面的限制适用于此新功能：<BR>- 重构操作将只能更改当前项目中的 XAML 文件，而不适用于解决方案中的所有项目</P>
+<P class="style1">- 只能针对类型名称和某些属性使用重构。对于以下属性不能使用重构：</P>
+<P class="style1">o&nbsp;&nbsp;&nbsp; Setter Property 属性</P>
+<P class="style1">o&nbsp;&nbsp;&nbsp; TemplateBinding 路径属性</P>
+<P class="style1">o&nbsp;&nbsp;&nbsp; Binding path 和 ElementName 属性</P>
+<P class="style1">o&nbsp;&nbsp;&nbsp; ObjectDataProvider 的 MethodName 属性</P>
+</P>
+<P class="style1"><U>解决此问题的方法：</U></P>
+<P>
+<P><span class="style1">手动完成修改；例如，使用“查找和替换”。</span><BR></P>
+</P>
+<H4>
+2.3.8.3  更改 XAML 将不重构代码文件
+</H4>
+<P>
+<P class=style1 
+                style="MARGIN: 0in 0in 10pt; LINE-HEIGHT: normal; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto">如果更改了 XAML 文件中的类型或成员，这些更改将不会传播到代码文件。</P>
+<P class=style1 
+                style="MARGIN: 0in 0in 10pt; LINE-HEIGHT: normal; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto">例如，如果使用 XAML 编辑器更改了具有关联的事件处理程序的按钮的名称，将不会更新隐藏代码。</P>
+</P>
+<P class="style1"><U>解决此问题的方法：</U></P>
+<P>
+<P class=style1 
+                style="MARGIN: 0in 0in 10pt; LINE-HEIGHT: normal; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto">必须手动修改代码文件；例如，使用“查找和替换”。</P>
+</P>
+<H4>
+2.3.8.4  在解决方案资源管理器中重命名不会在 WPF 项目中提示重命名重构
+</H4>
+<P>
+
+<P class=style1 
+                style="MARGIN: 0in 0in 10pt; LINE-HEIGHT: normal; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto">在解决方案资源管理器中，如果右击 XAML 文件，单击“重命名”，然后重命名文件，该文件名将发生更改，但不会出现任何要求重构 XAML 或隐藏代码中的类名的提示。具体而言，如果重命名由应用程序 XAML 文件中的 StartupUri 属性引用的 XAML 文件（例如，将 Window1.xaml 更改为 MainWindow.xaml），则必须手动更改 StartupUri 属性。</P>
+</P>
+<P class="style1"><U>解决此问题的方法：</U></P>
+<P>
+<P class=style1 
+                style="MARGIN: 0in 0in 10pt; LINE-HEIGHT: normal; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto">必须手动执行修改；例如，使用“查找和替换”。</P>
+</P>
+<H4>
+2.3.8.5  “查找所有引用”将不会查找 XAML 文件中的未命名控件
+</H4>
+<P>
+<P class=style1 style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">在代码隐藏文件中，通过右击某个符号并单击“查找所有引用”，可以查找对该符号的所有引用。“查找所有引用”将不会查找不具有 Name 属性集的 XAML 元素。</P>
+<P class=style1 style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">&nbsp;</P>
+<P class=style1 style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">例如：</P>
+<P class=style1 style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">下面的 XAML 显示了不具有名称的 MyUserControl 元素：</P>
+<P class=style1 style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">&lt;Grid&gt;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;MyUserControl/&gt;<BR>&nbsp;(...)</P>
+<P class=style1 style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">在代码隐藏文件中，如果右击 MyUserControl 符号并单击“查找所有引用”，则将仅会找到代码中的引用而找不到 XAML 中的引用。</P>
+</P>
+<P class="style1"><U>解决此问题的方法：</U></P>
+<P>
+<P class="style1">命名控件或手动进行搜索（例如，使用“在文件中查找”）。</P>
+</P>
+<H4>
+2.3.8.6  在绑定到比较耗时的 ObjectDataProvider 方法调用时，Visual Studio 可能停止响应
+</H4>
+<P>
+<P class=MsoNormal style="MARGIN: 0in 0in 10pt; LINE-HEIGHT: normal; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto">
+    <span class="style1">如果通过 XAML 绑定到</span> <SPAN style="FONT-FAMILY: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman'" 
+        class="style1">ObjectDataProvider 并且 ObjectDataProvider 执行数据库调用，则在 WPF 设计器中加载 XAML 时，该操作将十分耗时并会占用大量内存。因此，WPF 设计器可能会停止响应，直至调用该操作完成。</P>
+    </span> <SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman'">
+</P>
+<P class="style1"><U>解决此问题的方法：</U></P>
+<P>
+<P class=style1 
+        style="MARGIN: 0in 0in 10pt; LINE-HEIGHT: normal; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto">请避免在设计时按此方式设置 ObjectDataProvider。从编程角度而言，应只在运行时使用 DesignerProperties.IsInDesignMode() 方法执行耗时或占用大量内存的工作。</P>
+</P>
+<H4>
+2.3.8.7  当“{Binding RelativeSource={RelativeSource TemplatedParent}}”时无法加载 XAML
+</H4>
+<P>
+<P class=MsoNormal style="MARGIN: 0in 0in 10pt">&nbsp;这是 Visual Studio 2008 SP1 中的已知问题：如果绑定操作使用 RelativeSource TemplatedParent 而不使用路径，则 WPF 设计器将加载失败。</P>
+<P class=MsoNormal style="MARGIN: 0in 0in 10pt">例如：</P>
+<P class=MsoNormal style="MARGIN: 0in 0in 10pt">&nbsp;&nbsp;&nbsp; &lt;RepeatButton Command="{x:Static ScrollBar.LineUpCommand}"</P>
+<P class=MsoNormal style="MARGIN: 0in 0in 10pt">CommandTarget="{Binding RelativeSource={RelativeSource TemplatedParent}}" /&gt;<BR></P>
+</P>
+<P><U>解决此问题的方法：</U></P>
+<P>
+<P>使用解析为相同对象的“.”表示法指定路径。</P>
+<P>例如：</P>
+<P>&nbsp;&nbsp;&nbsp; &lt;RepeatButton Command="{x:Static ScrollBar.LineUpCommand}" CommandTarget="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=.}" /&gt;<BR></P>
+</P>
+<H4>
+2.3.9 <A name="Windows Workflow Foundation (WF) Tools">Windows Workflow Foundation (WF) 工具</A>
+</H4>
+没有已知问题。
+<H4>
+2.3.10 <A name="Windows SDK Integration">Windows SDK 集成</A>
+</H4>
+<H4>
+2.3.10.1  处理标记为 [Obsolete(IsError = true)] 属性的类型时，x64 Sgen.exe 不会生成程序集
+</H4>
+<P>
+x64 版本的 Sgen.exe 处理包含标记为 [Obsolete(IsError=true)] 属性的类型的程序集时将不生成序列化程序集。
+</P>
+<P><U>解决此问题的方法：</U></P>
+<P>
+使用 x86 版本的 Sgen.exe。
+</P>
+<H2>
+3. <A name="Related Links">相关链接</A>
+</H2>
+
+
+<A href="http://go.microsoft.com/fwlink/?LinkID=120417">Visual Studio 速成版自述文件</A> <br />
+
+<A  href="http://go.microsoft.com/fwlink/?LinkId=122089 ">.NET Framework 自述文件</A><br /><br /><br />
+
+&copy; 2008 Microsoft Corporation。保留所有权利。<a id="ctl00_BottomControl1_MSFT_Terms" href="http://www.microsoft.com/china/info/cpyright.mspx"
+                title="使用条款"><span style="color: black; font-family: Times New Roman;">使用条款</span></a> | <a href="http://www.microsoft.com/library/toolbar/3.0/trademarks/zh-cn.mspx" title="商标"> <span style="color: black; font-family: Times New Roman;">商标</span></a> | <a href="http://privacy.microsoft.com/zh-cn/default.aspx"
+                    title="隐私声明"><span style="color: black; font-family: Times New Roman;">隐私声明</span></a></P>
+</BODY>
+</HTML>
