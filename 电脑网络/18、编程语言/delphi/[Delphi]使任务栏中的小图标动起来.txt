@@ -1,0 +1,81 @@
+[Delphi]使任务栏中的小图标动起来 
+ 
+  
+ [Delphi]使任务栏中的小图标动起来  
+ 
+来源：大富翁 
+具体步骤如下：
+1、定义一个用于修改ICON的线程： 
+
+type
+  tchgicon = class(TThread) //用来改变图标的线程
+  private
+    current:integer;//用于指示当前显示的图标的序号
+  public
+    procedure Execute; override;
+    constructor Create;
+  end;
+var
+  YouThread:tchgicon;
+
+2、定义相应的方法和函数：
+
+ 
+
+procedure Tfrm_main.modicon(mi:Hicon;mtip:string) ;
+//修改ICON的函数
+var
+  res:boolean;
+  ptnd:PNotifyIconData;
+begin
+  new(ptnd);
+  ptnd^.cbsize:=sizeof(TNotifyIcondata);
+  //cbsize为TNotifyIcondata的字节数
+  ptnd^.wnd:=frm_main.handle;//建立图标的父窗口的句柄
+  ptnd^.uID:=0;//为同组图标的统一标识符
+  ptnd^.Uflags:=NIF_MESSAGE or NIF_ICON or NIF_TIP;
+  //表示下面三个参数是否有效
+  ptnd^.uCallbackMessage:=WM_USER_NOTIFYICON;//自定义的消息
+  //定义触发的消息标识
+  ptnd^.hicon:=mi;//定义图标的句柄
+  strcopy(ptnd^.sztip,pchar(mtip));//定义Mouse放在ICON上的显示的Tip
+  res:=Shell_NotifyIcon(NIM_Modify,ptnd);
+  //为NIM_modify表示变更ICON
+  dispose(ptnd);
+end;
+constructor tchgicon.Create();
+begin
+  current:=0;
+  inherited Create(False);
+end;
+
+procedure tchgicon.Execute;
+var
+  i:integer;
+  res:bool;
+begin
+  { Place thread code here }
+  i:=1;
+  while (not terminated) do
+   begin
+     current:=((current+1) mod 4);
+     //循环current from 1 to 4 或者你想要的数目
+     myhicon:=icon[current+1];
+    //取得图标的句柄，可以存在一个图标数组或ImageList中
+     frm_main.MOdIcon(myhicon,'It is '+inttostr(current));
+    //调用改变ICON的函数；
+     sleep(1000);//定时为1秒钟改变一次
+     if Terminated then Exit;
+   end;
+end;
+
+
+3、在你向状态栏添加加图标时创建此线程：
+
+YouThread:=tchgicon.create();
+
+4、在你从状态栏删除图标时删除此线程
+
+YouThread.destroy;
+
+ 
