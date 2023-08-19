@@ -43,15 +43,6 @@
 			2022/9/25 16:40:58</td>
 		</tr>
 		<tr>
-			<td data-value="「空軍詩人」陳禪心中國空軍抗日集唐詩研究105SCU00045049-001.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=「空軍詩人」陳禪心中國空軍抗日集唐詩研究105SCU00045049-001.pdf">
-			「空軍詩人」陳禪心中國空軍抗日集唐詩研究105SCU00045049-001.pdf</a></td>
-			<td class="detailsColumn" data-value="9232452" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			8.8 MB</td>
-			<td class="detailsColumn" data-value="1664093887" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 16:18:07</td>
-		</tr>
-		<tr>
 			<td data-value="03-徐志平-0103洪棄生八股文之比較 以〈學則三代共之皆所以明人倫也〉為例.pdf">
 			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=03-徐志平-0103洪棄生八股文之比較%20以〈學則三代共之皆所以明人倫也〉為例.pdf">
 			03-徐志平-0103洪棄生八股文之比較 以〈學則三代共之皆所以明人倫也〉為例.pdf</a></td>
@@ -79,13 +70,13 @@
 			2022/9/25 17:13:10</td>
 		</tr>
 		<tr>
-			<td data-value="202009051059511090905國語演說.ppt">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=202009051059511090905國語演說.ppt">
-			202009051059511090905國語演說.ppt</a></td>
-			<td class="detailsColumn" data-value="11024384" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			10.5 MB</td>
-			<td class="detailsColumn" data-value="1664095508" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 16:45:08</td>
+			<td data-value="4 THE BA GU WEN（八股文）.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=4%20THE%20BA%20GU%20WEN（八股文）.pdf">
+			4 THE BA GU WEN（八股文）.pdf</a></td>
+			<td class="detailsColumn" data-value="245300" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			240 kB</td>
+			<td class="detailsColumn" data-value="1692421046" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2023/8/19 12:57:26</td>
 		</tr>
 		<tr>
 			<td data-value="4 THE BA GU WEN（八股文）chapter4.pdf">
@@ -106,13 +97,13 @@
 			2022/9/25 15:51:53</td>
 		</tr>
 		<tr>
-			<td data-value="八股文：中国古代常用文体规范读本.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=八股文：中国古代常用文体规范读本.pdf">
-			八股文：中国古代常用文体规范读本.pdf</a></td>
-			<td class="detailsColumn" data-value="5529577" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			5.3 MB</td>
-			<td class="detailsColumn" data-value="1664145284" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/26 06:34:44</td>
+			<td data-value="八股文的表格化整理──以歸有光的四書文為例.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=八股文的表格化整理──以歸有光的四書文為例.pdf">
+			八股文的表格化整理──以歸有光的四書文為例.pdf</a></td>
+			<td class="detailsColumn" data-value="2818502" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2.7 MB</td>
+			<td class="detailsColumn" data-value="1692420971" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2023/8/19 12:56:11</td>
 		</tr>
 		<tr>
 			<td data-value="八股文的淵源及其相關問題.pdf">
@@ -124,6 +115,15 @@
 			2022/9/25 15:38:00</td>
 		</tr>
 		<tr>
+			<td data-value="八股文范式及例释.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=八股文范式及例释.pdf">
+			八股文范式及例释.pdf</a></td>
+			<td class="detailsColumn" data-value="254526" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			249 kB</td>
+			<td class="detailsColumn" data-value="1692420914" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2023/8/19 12:55:14</td>
+		</tr>
+		<tr>
 			<td data-value="八股文概说_王凯符.pdf">
 			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=八股文概说_王凯符.pdf">
 			八股文概说_王凯符.pdf</a></td>
@@ -133,9 +133,9 @@
 			2022/9/25 23:23:09</td>
 		</tr>
 		<tr>
-			<td data-value="八股文观止 （海南出版社 1994）田启霖编著.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=八股文观止%20（海南出版社%201994）田启霖编著.pdf">
-			八股文观止 （海南出版社 1994）田启霖编著.pdf</a></td>
+			<td data-value="八股文观止 田启霖 编著 海南出版社 1994.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=八股文观止%20田启霖%20编著%20海南出版社%201994.pdf">
+			八股文观止 田启霖 编著 海南出版社 1994.pdf</a></td>
 			<td class="detailsColumn" data-value="46416144" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
 			44.3 MB</td>
 			<td class="detailsColumn" data-value="1664146185" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
@@ -149,6 +149,15 @@
 			9.8 MB</td>
 			<td class="detailsColumn" data-value="1664120309" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
 			2022/9/25 23:38:29</td>
+		</tr>
+		<tr>
+			<td data-value="八股文与中国传统文学的演进--以明清戏曲创作为例.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=八股文与中国传统文学的演进--以明清戏曲创作为例.pdf">
+			八股文与中国传统文学的演进--以明清戏曲创作为例.pdf</a></td>
+			<td class="detailsColumn" data-value="175529" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			171 kB</td>
+			<td class="detailsColumn" data-value="1692421142" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2023/8/19 12:59:02</td>
 		</tr>
 		<tr>
 			<td data-value="第一节八股文.pdf">
@@ -205,13 +214,13 @@
 			2022/9/25 16:42:59</td>
 		</tr>
 		<tr>
-			<td data-value="方华文：20世纪中国翻译史[完整].pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=方华文：20世纪中国翻译史[完整].pdf">
-			方华文：20世纪中国翻译史[完整].pdf</a></td>
-			<td class="detailsColumn" data-value="11827445" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			11.3 MB</td>
-			<td class="detailsColumn" data-value="1664097159" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 17:12:39</td>
+			<td data-value="废八股后考题的变化及对应试者的影响.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=废八股后考题的变化及对应试者的影响.pdf">
+			废八股后考题的变化及对应试者的影响.pdf</a></td>
+			<td class="detailsColumn" data-value="87718" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			85.7 kB</td>
+			<td class="detailsColumn" data-value="1692420943" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2023/8/19 12:55:43</td>
 		</tr>
 		<tr>
 			<td data-value="高雄市私立正義高級中學107學年度第1學期期末考歷史科試題卷1901190415079a.pdf">
@@ -241,33 +250,6 @@
 			2022/9/25 17:00:47</td>
 		</tr>
 		<tr>
-			<td data-value="空軍詩人陳禪心中國空軍抗日集唐詩研究--以《抗倭集》、《滄桑集》(卷上)為主105SCU00045049-001.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=空軍詩人陳禪心中國空軍抗日集唐詩研究--以《抗倭集》、《滄桑集》(卷上)為主105SCU00045049-001.pdf">
-			空軍詩人陳禪心中國空軍抗日集唐詩研究--以《抗倭集》、《滄桑集》(卷上)為主105SCU00045049-001.pdf</a></td>
-			<td class="detailsColumn" data-value="9232452" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			8.8 MB</td>
-			<td class="detailsColumn" data-value="1664093976" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 16:19:36</td>
-		</tr>
-		<tr>
-			<td data-value="勞山道士.ppt">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=勞山道士.ppt">
-			勞山道士.ppt</a></td>
-			<td class="detailsColumn" data-value="11203072" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			10.7 MB</td>
-			<td class="detailsColumn" data-value="1664095441" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 16:44:01</td>
-		</tr>
-		<tr>
-			<td data-value="历史笔记Li Shi Bi Ji  2 - Gao Hua.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=历史笔记Li%20Shi%20Bi%20Ji%20%202%20-%20Gao%20Hua.pdf">
-			历史笔记Li Shi Bi Ji 2 - Gao Hua.pdf</a></td>
-			<td class="detailsColumn" data-value="21532924" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			20.5 MB</td>
-			<td class="detailsColumn" data-value="1664093758" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 16:15:58</td>
-		</tr>
-		<tr>
 			<td data-value="聊齋誌異（張采媛老師）.ppt">
 			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=聊齋誌異（張采媛老師）.ppt">
 			聊齋誌異（張采媛老師）.ppt</a></td>
@@ -277,6 +259,15 @@
 			2022/9/25 16:44:29</td>
 		</tr>
 		<tr>
+			<td data-value="论八股文长期沿用的文化机制.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=论八股文长期沿用的文化机制.pdf">
+			论八股文长期沿用的文化机制.pdf</a></td>
+			<td class="detailsColumn" data-value="354776" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			346 kB</td>
+			<td class="detailsColumn" data-value="1692421002" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2023/8/19 12:56:42</td>
+		</tr>
+		<tr>
 			<td data-value="论林纾的文学修为.pdf">
 			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=论林纾的文学修为.pdf">
 			论林纾的文学修为.pdf</a></td>
@@ -284,15 +275,6 @@
 			1.3 MB</td>
 			<td class="detailsColumn" data-value="1664096238" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
 			2022/9/25 16:57:18</td>
-		</tr>
-		<tr>
-			<td data-value="論對偶文學與中庸思想的關係.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=論對偶文學與中庸思想的關係.pdf">
-			論對偶文學與中庸思想的關係.pdf</a></td>
-			<td class="detailsColumn" data-value="16373551" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			15.6 MB</td>
-			<td class="detailsColumn" data-value="1664092974" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 16:02:54</td>
 		</tr>
 		<tr>
 			<td data-value="論徐渭的文學觀4022000505.pdf">
@@ -331,15 +313,6 @@
 			2022/9/25 15:59:42</td>
 		</tr>
 		<tr>
-			<td data-value="明代翰林院之組織及職掌.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=明代翰林院之組織及職掌.pdf">
-			明代翰林院之組織及職掌.pdf</a></td>
-			<td class="detailsColumn" data-value="3541079" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			3.4 MB</td>
-			<td class="detailsColumn" data-value="1664093626" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 16:13:46</td>
-		</tr>
-		<tr>
 			<td data-value="明代科举史事编年考证.pdf">
 			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=明代科举史事编年考证.pdf">
 			明代科举史事编年考证.pdf</a></td>
@@ -347,6 +320,15 @@
 			720 kB</td>
 			<td class="detailsColumn" data-value="1664092653" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
 			2022/9/25 15:57:33</td>
+		</tr>
+		<tr>
+			<td data-value="明清八股文欣赏.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=明清八股文欣赏.pdf">
+			明清八股文欣赏.pdf</a></td>
+			<td class="detailsColumn" data-value="373202" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			364 kB</td>
+			<td class="detailsColumn" data-value="1692421003" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2023/8/19 12:56:43</td>
 		</tr>
 		<tr>
 			<td data-value="明清科举八股小题文研究.pdf">
@@ -457,13 +439,13 @@
 			2022/9/25 15:36:25</td>
 		</tr>
 		<tr>
-			<td data-value="田启霖编着： 八股文观止 （海南出版社 1994）.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=田启霖编着：%20八股文观止%20（海南出版社%201994）.pdf">
-			田启霖编着： 八股文观止 （海南出版社 1994）.pdf</a></td>
-			<td class="detailsColumn" data-value="46416144" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			44.3 MB</td>
-			<td class="detailsColumn" data-value="1664120264" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 23:37:44</td>
+			<td data-value="湯賓尹與晚明制藝八股文的流行及傳.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=湯賓尹與晚明制藝八股文的流行及傳.pdf">
+			湯賓尹與晚明制藝八股文的流行及傳.pdf</a></td>
+			<td class="detailsColumn" data-value="2918950" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2.8 MB</td>
+			<td class="detailsColumn" data-value="1692421112" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2023/8/19 12:58:32</td>
 		</tr>
 		<tr>
 			<td data-value="晚清来华美国新教传教士对科举制度的评说JHKX200804035.pdf">
@@ -484,22 +466,13 @@
 			2022/9/25 17:11:00</td>
 		</tr>
 		<tr>
-			<td data-value="西遊記續書審美敘事藝術研究論文全.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=西遊記續書審美敘事藝術研究論文全.pdf">
-			西遊記續書審美敘事藝術研究論文全.pdf</a></td>
-			<td class="detailsColumn" data-value="318023" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			311 kB</td>
-			<td class="detailsColumn" data-value="1664094573" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 16:29:33</td>
-		</tr>
-		<tr>
-			<td data-value="香港史 - [英] 法兰克·韦尔许.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=香港史%20-%20[英]%20法兰克·韦尔许.pdf">
-			香港史 - [英] 法兰克·韦尔许.pdf</a></td>
-			<td class="detailsColumn" data-value="25782953" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			24.6 MB</td>
-			<td class="detailsColumn" data-value="1664094661" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 16:31:01</td>
+			<td data-value="制度化儒家及其解体(修订版).pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=制度化儒家及其解体(修订版).pdf">
+			制度化儒家及其解体(修订版).pdf</a></td>
+			<td class="detailsColumn" data-value="3489134" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			3.3 MB</td>
+			<td class="detailsColumn" data-value="1692421015" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2023/8/19 12:56:55</td>
 		</tr>
 		<tr>
 			<td data-value="中国古代常用文体规范读本 （八股文）.pdf">
@@ -511,15 +484,6 @@
 			2022/9/25 23:22:08</td>
 		</tr>
 		<tr>
-			<td data-value="中国図書PDF輸入代行リストcptsml.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=中国図書PDF輸入代行リストcptsml.pdf">
-			中国図書PDF輸入代行リストcptsml.pdf</a></td>
-			<td class="detailsColumn" data-value="2894404" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2.8 MB</td>
-			<td class="detailsColumn" data-value="1664094675" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 16:31:15</td>
-		</tr>
-		<tr>
 			<td data-value="中國卻開始受到八股文的限制.ppt">
 			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=中國卻開始受到八股文的限制.ppt">
 			中國卻開始受到八股文的限制.ppt</a></td>
@@ -527,15 +491,6 @@
 			308 kB</td>
 			<td class="detailsColumn" data-value="1664095427" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
 			2022/9/25 16:43:47</td>
-		</tr>
-		<tr>
-			<td data-value="周作人與五十年代香港散文.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=周作人與五十年代香港散文.pdf">
-			周作人與五十年代香港散文.pdf</a></td>
-			<td class="detailsColumn" data-value="3188623" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			3.0 MB</td>
-			<td class="detailsColumn" data-value="1664093886" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 16:18:06</td>
 		</tr>
 		<tr>
 			<td data-value="朱熹倡导的应试动机及其影响.pdf">
@@ -556,48 +511,21 @@
 			2022/9/25 17:10:46</td>
 		</tr>
 		<tr>
-			<td data-value="Advanced Reader In Chinese History(2nd rev).pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=Advanced%20Reader%20In%20Chinese%20History(2nd%20rev).pdf">
-			Advanced Reader In Chinese History(2nd rev).pdf</a></td>
-			<td class="detailsColumn" data-value="6736182" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			6.4 MB</td>
-			<td class="detailsColumn" data-value="1664093664" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 16:14:24</td>
-		</tr>
-		<tr>
-			<td data-value="chubun19d-2.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=chubun19d-2.pdf">
-			chubun19d-2.pdf</a></td>
+			<td data-value="chubun19d-2Dynastie Qīng 清 (1644-1911) – charakteristika.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=chubun19d-2Dynastie%20Qīng%20清%20(1644-1911)%20–%20charakteristika.pdf">
+			chubun19d-2Dynastie Qīng 清 (1644-1911) – charakteristika.pdf</a></td>
 			<td class="detailsColumn" data-value="102344" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
 			99.9 kB</td>
 			<td class="detailsColumn" data-value="1664097173" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
 			2022/9/25 17:12:53</td>
 		</tr>
 		<tr>
-			<td data-value="Dynastie_Q_ng-roman.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=Dynastie_Q_ng-roman.pdf">
-			Dynastie_Q_ng-roman.pdf</a></td>
+			<td data-value="Dynastie_Q_ng-romanDynastie Qīng 清 (1644-1911) – charakteristika.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=Dynastie_Q_ng-romanDynastie%20Qīng%20清%20(1644-1911)%20–%20charakteristika.pdf">
+			Dynastie_Q_ng-romanDynastie Qīng 清 (1644-1911) – charakteristika.pdf</a></td>
 			<td class="detailsColumn" data-value="217721" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
 			213 kB</td>
 			<td class="detailsColumn" data-value="1664097000" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
 			2022/9/25 17:10:00</td>
-		</tr>
-		<tr>
-			<td data-value="etd-0803114-140313.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=etd-0803114-140313.pdf">
-			etd-0803114-140313.pdf</a></td>
-			<td class="detailsColumn" data-value="2848565" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2.7 MB</td>
-			<td class="detailsColumn" data-value="1664092945" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 16:02:25</td>
-		</tr>
-		<tr>
-			<td data-value="rekishi_kk_c_translate.pdf">
-			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=rekishi_kk_c_translate.pdf">
-			rekishi_kk_c_translate.pdf</a></td>
-			<td class="detailsColumn" data-value="2663779" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2.5 MB</td>
-			<td class="detailsColumn" data-value="1664094210" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
-			2022/9/25 16:23:30</td>
 		</tr>
 </table>
