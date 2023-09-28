@@ -1066,3 +1066,122 @@
 		</tr>
 </table>
 
+<h1 id="header1" style="border-bottom: 1px solid rgb(192, 192, 192); margin-bottom: 10px; padding-bottom: 10px; white-space: nowrap; color: rgb(0, 0, 0); font-family: &quot;Microsoft YaHei&quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+\\鲁虺书库\幼儿启蒙\01、幼儿心理学\幼儿心理学\ 的索引</h1>
+<div id="parentDirLinkBox1" style="margin-bottom: 10px; padding-bottom: 10px; color: rgb(0, 0, 0); font-family: &quot;Microsoft YaHei&quot;; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: block;">
+	<a id="parentDirLink1" class="icon up" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACM0lEQVR42myTA+w1RxRHz+zftmrbdlTbtq04qRGrCmvbDWp9tq3a7tPcub8mj9XZ3eHOGQdJAHw77/LbZuvnWy+c/CIAd+91CMf3bo+bgcBiBAGIZKXb19/zodsAkFT+3px+ssYfyHTQW5tr05dCOf3xN49KaVX9+2zy1dX4XMk+5JflN5MBPL30oVsvnvEyp+18Nt3ZAErQMSFOfelCFvw0HcUloDayljZkX+MmamTAMTe+d+ltZ+1wEaRAX/MAnkJdcujzZyErIiVSzCEvIiq4O83AG7LAkwsfIgAnbncag82jfPPdd9RQyhPkpNJvKJWQBKlYFmQA315n4YPNjwMAZYy0TgAweedLmLzTJSTLIxkWDaVCVfAbbiKjytgmm+EGpMBYW0WwwbZ7lL8anox/UxekaOW544HO0ANAshxuORT/RG5YSrjlwZ3lM955tlQqbtVMlWIhjwzkAVFB8Q9EAAA3AFJ+DR3DO/Pnd3NPi7H117rAzWjpEs8vfIqsGZpaweOfEAAFJKuM0v6kf2iC5pZ9+fmLSZfWBVaKfLLNOXj6lYY0V2lfyVCIsVzmcRV9Y0fx02eTaEwhl2PDrXcjFdYRAohQmS8QEFLCLKGYA0AeEakhCCFDXqxsE0AQACgAQp5w96o0lAXuNASeDKWIvADiHwigfBINpWKtAXJvCEKWgSJNbRvxf4SmrnKDpvZavePu1K/zu/due1X/6Nj90MBd/J2Cic7WjBp/jUdIuA8AUtd65M+PzXIAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=幼儿启蒙/01、幼儿心理学/">
+	<span id="parentDirText1">[上级目录]</span></a></div>
+<table style="border-collapse: collapse; color: rgb(0, 0, 0); font-family: &quot;Microsoft YaHei&quot;; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	<thead>
+		<tr class="header" id="theader1">
+			<th id="nameColumnHeader1" tabindex="0" role="button" style="cursor: pointer;">
+			名称</th>
+			<th id="sizeColumnHeader1" class="detailsColumn" tabindex="0" role="button" style="cursor: pointer;">
+			大小</th>
+			<th id="dateColumnHeader1" class="detailsColumn" tabindex="0" role="button" style="cursor: pointer;">
+			修改日期</th>
+		</tr>
+	</thead>
+	<tbody id="tbody1">
+		<tr>
+			<td data-value="09年12月幼儿心理试题.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=09年12月幼儿心理试题.pdf">
+			09年12月幼儿心理试题.pdf</a></td>
+			<td class="detailsColumn" data-value="105399" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			103 kB</td>
+			<td class="detailsColumn" data-value="1667330021" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/11/2 03:13:41</td>
+		</tr>
+		<tr>
+			<td data-value="2010年12月幼儿心理学.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=2010年12月幼儿心理学.pdf">
+			2010年12月幼儿心理学.pdf</a></td>
+			<td class="detailsColumn" data-value="259133" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			253 kB</td>
+			<td class="detailsColumn" data-value="1667330021" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/11/2 03:13:41</td>
+		</tr>
+		<tr>
+			<td data-value="2011年12月幼儿心理学试卷.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=2011年12月幼儿心理学试卷.pdf">
+			2011年12月幼儿心理学试卷.pdf</a></td>
+			<td class="detailsColumn" data-value="274815" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			268 kB</td>
+			<td class="detailsColumn" data-value="1667330022" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/11/2 03:13:42</td>
+		</tr>
+		<tr>
+			<td data-value="2011年4月幼儿心理学试卷.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=2011年4月幼儿心理学试卷.pdf">
+			2011年4月幼儿心理学试卷.pdf</a></td>
+			<td class="detailsColumn" data-value="136828" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			134 kB</td>
+			<td class="detailsColumn" data-value="1667330023" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/11/2 03:13:43</td>
+		</tr>
+		<tr>
+			<td data-value="2012年12月幼儿教育心理学真题.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=2012年12月幼儿教育心理学真题.pdf">
+			2012年12月幼儿教育心理学真题.pdf</a></td>
+			<td class="detailsColumn" data-value="135205" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			132 kB</td>
+			<td class="detailsColumn" data-value="1667330024" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/11/2 03:13:44</td>
+		</tr>
+		<tr>
+			<td data-value="2012年4月幼儿教师资格证心理学试卷.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=2012年4月幼儿教师资格证心理学试卷.pdf">
+			2012年4月幼儿教师资格证心理学试卷.pdf</a></td>
+			<td class="detailsColumn" data-value="221056" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			216 kB</td>
+			<td class="detailsColumn" data-value="1667330024" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/11/2 03:13:44</td>
+		</tr>
+		<tr>
+			<td data-value="2013年5月12号心理学考试.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=2013年5月12号心理学考试.pdf">
+			2013年5月12号心理学考试.pdf</a></td>
+			<td class="detailsColumn" data-value="266754" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			261 kB</td>
+			<td class="detailsColumn" data-value="1667330025" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/11/2 03:13:45</td>
+		</tr>
+		<tr>
+			<td data-value="2013年幼儿教育心理学12月真题.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=2013年幼儿教育心理学12月真题.pdf">
+			2013年幼儿教育心理学12月真题.pdf</a></td>
+			<td class="detailsColumn" data-value="334356" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			327 kB</td>
+			<td class="detailsColumn" data-value="1667330026" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/11/2 03:13:46</td>
+		</tr>
+		<tr>
+			<td data-value="2014年12月幼儿心理学真题.doc">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=2014年12月幼儿心理学真题.doc">
+			2014年12月幼儿心理学真题.doc</a></td>
+			<td class="detailsColumn" data-value="18944" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			18.5 kB</td>
+			<td class="detailsColumn" data-value="1667330027" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/11/2 03:13:47</td>
+		</tr>
+		<tr>
+			<td data-value="2014年5月教育心理学考试真题.pdf">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=2014年5月教育心理学考试真题.pdf">
+			2014年5月教育心理学考试真题.pdf</a></td>
+			<td class="detailsColumn" data-value="353342" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			345 kB</td>
+			<td class="detailsColumn" data-value="1667330027" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/11/2 03:13:47</td>
+		</tr>
+		<tr>
+			<td data-value="2015年4月幼儿教育心理学.doc">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=2015年4月幼儿教育心理学.doc">
+			2015年4月幼儿教育心理学.doc</a></td>
+			<td class="detailsColumn" data-value="23040" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			22.5 kB</td>
+			<td class="detailsColumn" data-value="1667330028" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/11/2 03:13:48</td>
+		</tr>
+</table>
+
+
