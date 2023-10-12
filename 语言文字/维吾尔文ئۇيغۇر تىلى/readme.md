@@ -1,1 +1,63 @@
-索引
+<h1 id="header" style="border-bottom: 1px solid rgb(192, 192, 192); margin-bottom: 10px; padding-bottom: 10px; white-space: nowrap; color: rgb(0, 0, 0); font-family: &quot;Microsoft YaHei&quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+\\鲁虺书库\语言文字\维吾尔文&#1574;&#1735;&#1610;&#1594;&#1735;&#1585; &#1578;&#1609;&#1604;&#1609;\ 的索引</h1>
+<div id="parentDirLinkBox" style="margin-bottom: 10px; padding-bottom: 10px; color: rgb(0, 0, 0); font-family: &quot;Microsoft YaHei&quot;; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: block;">
+	<a id="parentDirLink" class="icon up" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACM0lEQVR42myTA+w1RxRHz+zftmrbdlTbtq04qRGrCmvbDWp9tq3a7tPcub8mj9XZ3eHOGQdJAHw77/LbZuvnWy+c/CIAd+91CMf3bo+bgcBiBAGIZKXb19/zodsAkFT+3px+ssYfyHTQW5tr05dCOf3xN49KaVX9+2zy1dX4XMk+5JflN5MBPL30oVsvnvEyp+18Nt3ZAErQMSFOfelCFvw0HcUloDayljZkX+MmamTAMTe+d+ltZ+1wEaRAX/MAnkJdcujzZyErIiVSzCEvIiq4O83AG7LAkwsfIgAnbncag82jfPPdd9RQyhPkpNJvKJWQBKlYFmQA315n4YPNjwMAZYy0TgAweedLmLzTJSTLIxkWDaVCVfAbbiKjytgmm+EGpMBYW0WwwbZ7lL8anox/UxekaOW544HO0ANAshxuORT/RG5YSrjlwZ3lM955tlQqbtVMlWIhjwzkAVFB8Q9EAAA3AFJ+DR3DO/Pnd3NPi7H117rAzWjpEs8vfIqsGZpaweOfEAAFJKuM0v6kf2iC5pZ9+fmLSZfWBVaKfLLNOXj6lYY0V2lfyVCIsVzmcRV9Y0fx02eTaEwhl2PDrXcjFdYRAohQmS8QEFLCLKGYA0AeEakhCCFDXqxsE0AQACgAQp5w96o0lAXuNASeDKWIvADiHwigfBINpWKtAXJvCEKWgSJNbRvxf4SmrnKDpvZavePu1K/zu/due1X/6Nj90MBd/J2Cic7WjBp/jUdIuA8AUtd65M+PzXIAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=语言文字/">
+	<span id="parentDirText">[上级目录]</span></a></div>
+<table style="border-collapse: collapse; color: rgb(0, 0, 0); font-family: &quot;Microsoft YaHei&quot;; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	<thead>
+		<tr class="header" id="theader">
+			<th id="nameColumnHeader" tabindex="0" role="button" style="cursor: pointer;">
+			名称</th>
+			<th id="sizeColumnHeader" class="detailsColumn" tabindex="0" role="button" style="cursor: pointer;">
+			大小</th>
+			<th id="dateColumnHeader" class="detailsColumn" tabindex="0" role="button" style="cursor: pointer;">
+			修改日期</th>
+		</tr>
+	</thead>
+	<tbody id="tbody">
+		<tr>
+			<td data-value="大气：维吾尔文 周诗健.djvu">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=大气：维吾尔文%20周诗健.djvu">
+			大气：维吾尔文 周诗健.djvu</a></td>
+			<td class="detailsColumn" data-value="2432131" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2.3 MB</td>
+			<td class="detailsColumn" data-value="1666194763" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/10/19 23:52:43</td>
+		</tr>
+		<tr>
+			<td data-value="地球：维吾尔文 石工.djvu">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=地球：维吾尔文%20石工.djvu">
+			地球：维吾尔文 石工.djvu</a></td>
+			<td class="detailsColumn" data-value="1775973" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			1.7 MB</td>
+			<td class="detailsColumn" data-value="1666194140" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/10/19 23:42:20</td>
+		</tr>
+		<tr>
+			<td data-value="石油与煤：维吾尔文 尤铮.djvu">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=石油与煤：维吾尔文%20尤铮.djvu">
+			石油与煤：维吾尔文 尤铮.djvu</a></td>
+			<td class="detailsColumn" data-value="1533028" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			1.5 MB</td>
+			<td class="detailsColumn" data-value="1666194724" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/10/19 23:52:04</td>
+		</tr>
+		<tr>
+			<td data-value="一个不幸者的遭遇：维吾尔文 马尔克斯.djvu">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=一个不幸者的遭遇：维吾尔文%20马尔克斯.djvu">
+			一个不幸者的遭遇：维吾尔文 马尔克斯.djvu</a></td>
+			<td class="detailsColumn" data-value="1970542" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			1.9 MB</td>
+			<td class="detailsColumn" data-value="1666194154" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/10/19 23:42:34</td>
+		</tr>
+		<tr>
+			<td data-value="月亮：维吾尔文 卞德培.djvu">
+			<a class="icon file" draggable="true" style="padding-inline-start: 1.5em; text-decoration: none; user-select: auto; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAABEElEQVR42nRRx3HDMBC846AHZ7sP54BmWAyrsP588qnwlhqw/k4v5ZwWxM1hzmGRgV1cYqrRarXoH2w2m6qqiqKIR6cPtzc3xMSML2Te7XZZlnW7Pe/91/dX47WRBHuA9oyGmRknzGDjab1ePzw8bLfb6WRalmW4ip9FDVpYSWZgOp12Oh3nXJ7nxoJSGEciteP9y+fH52q1euv38WosqA6T2gGOT44vry7BEQtJkMAMMpa6JagAMcUfWYa4hkkzAc7fFlSjwqCoOUYAF5RjHZPVCFBOtSBGfgUDji3c3jpibeEMQhIMh8NwshqyRsBJgvF4jMs/YlVR5KhgNpuBLzk0OcUiR3CMhcPaOzsZiAAA/AjmaB3WZIkAAAAASUVORK5CYII=') no-repeat left top" href="http://book.luhui.net/?q=月亮：维吾尔文%20卞德培.djvu">
+			月亮：维吾尔文 卞德培.djvu</a></td>
+			<td class="detailsColumn" data-value="1290224" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			1.2 MB</td>
+			<td class="detailsColumn" data-value="1666194777" style="padding-inline-start: 2em; text-align: end; white-space: nowrap;">
+			2022/10/19 23:52:57</td>
+		</tr>
+</table>
